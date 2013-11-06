@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress1/
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^assets/(.*) /wordpress1/wp-content/themes/Roots/assets/$1 [QSA,L]
+RewriteRule ^plugins/(.*) /wordpress1/wp-content/plugins/$1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress1/index.php [L]
+</IfModule>
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress1/
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^assets/(.*) /wordpress1/wp-content/themes/Roots/assets/$1 [QSA,L]
+RewriteRule ^plugins/(.*) /wordpress1/wp-content/plugins/$1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress1/index.php [L]
+</IfModule>
+
+# END WordPress

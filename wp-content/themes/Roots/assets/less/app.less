@@ -1,0 +1,563 @@
+/*!
+ * Roots 6.5.0
+ */
+
+@import "bootstrap/bootstrap.less";
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {background-color: #BFC7A7;}
+      
+       
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.banner { width:100%;}
+#menu-primary-navigation li{
+ background-color:#FB5A48;
+ 
+-webkit-transition: All 0.7s ease;
+-moz-transition: All 0.7s ease;
+-o-transition: All 0.7s ease;
+-ms-transition: All 0.7s ease;
+transition: All 0.7s ease;}
+#menu-primary-navigation li:hover{background-color:#5E3448;}
+
+.navbar{background-color:#FB5A48;
+border:none;}
+
+.navbar-default .navbar-nav > .active a {
+color: #555555;
+-webkit-transition: All 0.7s ease;
+-moz-transition: All 0.7s ease;
+-o-transition: All 0.7s ease;
+-ms-transition: All 0.7s ease;
+transition: All 0.7s ease;
+background-color: #FB5A48;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{background-color:#5E3448;}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{background-color:blue;}
+
+button.navbar-toggle collapsed{color:#17693C;}
+.icon-bar {
+  background-color:#17693C;
+}
+.navbar a{color:#C3C6C9;}
+.navbar-default .navbar-nav > li > a {
+  color:#C3C6C9;}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {color:#C3C6C9;}
+
+ 
+
+
+
+
+
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+.btn{background-color:#F55C45; display: block;
+    
+   width:100%;
+}
+.accordion{padding-bottom:100px;}
+.accordion-toggle{color:black;}
+.btn{background-color:#1B7AE0;}
+.accordion-inner{background-color:#B8756A}
+
+
+
+
+/*slider revolution caption*/
+#revo{}
+.tp-caption.very_large_text{font-family:lato;}
+.tp-caption.small_text1{color: #F02B1D;font-family:lato;}
+
+#uno{background-color:#97DCF0; color:grey; width:100%;
+height:100px;
+/*Transition*/
+-webkit-transition: All 0.5s ease;
+-moz-transition: All 0.5s ease;
+-o-transition: All 0.5s ease;
+-ms-transition: All 0.5s ease;
+transition: All 0.5s ease;}
+#uno:hover{background-color:#350CC9;}
+#sub{background-image: url("../img/grid.png");}
+#sub{background-color: red;}
+
+/* Curves */
+#curveUpColor path,
+#curveDownColor path {
+   fill: #BFC7A7;
+   stroke: #BFC7A7;
+}
+
+
+/* Zig Zag (3d up and simple down) */
+.ss-style-zigzag::before,
+.ss-style-zigzag::after {
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    height: 90px;
+    background-size: 50px 100%;
+  }
+
+.ss-style-zigzag::before {
+   top: -90px;
+   background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #3498db));
+   background-image:
+      linear-gradient(315deg, #3093d5 25%, transparent 25%),
+      linear-gradient( 45deg, #3498db 25%, transparent 25%);
+   background-position: 50%;
+}
+
+.ss-style-zigzag::after {
+   top: 100%;
+   background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #3498db), color-stop(0.25, #2980b9));
+   background-image: 
+      linear-gradient(135deg, #3498db 25%, transparent 25%),
+      linear-gradient(225deg, #3498db 25%, transparent 25%);
+   background-position: 50%;
+}
+
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+/* Browser Resets
+*********************************/
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+/* Icon Fonts
+*********************************/
+/* Font-face Icons */
+@font-face {
+   font-family: 'flexslider-icon';
+   src:url('../fonts/flexslider-icon.eot');
+   src:url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/flexslider-icon.woff') format('woff'),
+      url('../fonts/flexslider-icon.ttf') format('truetype'),
+      url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { margin: 0 0 60px; background: #fff; border: 0px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.flexslider .slides { zoom: 1; }
+.carousel li { margin-right: 5px; }
+.flex-caption {
+    color:black;
+    position:absolute;
+    left:50;right:50;bottom:0;
+    background:rgba(0, 255, 0,0.4);
+    z-index:1;padding:10px;
+ }
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a  { display: block; width: 40px; height: 40px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav .flex-prev { left: -50px; }
+.flex-direction-nav .flex-next { right: -50px; text-align: right; }
+.flexslider:hover .flex-prev { opacity: 0.7; left: 10px; }
+.flexslider:hover .flex-next { opacity: 0.7; right: 10px; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+.flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 30px; display: inline-block; content: '\f001'; }
+.flex-direction-nav a.flex-next:before  { content: '\f002'; }
+
+/* Pause/Play */
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+.flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
+.flex-pauseplay a:hover  { opacity: 1; }
+.flex-pauseplay a.flex-play:before { content: '\f003'; }
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
+  .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+}
+
+
+/* Thumbnails Fix
+ * ------------------------------------------------------------------------- */
+.thumbnails {
+  margin-bottom: 0;
+}
+
+/* This prevents thumbnails to break after the first row. */
+.thumbnails > li.span2:nth-child(6n+1),
+.thumbnails > li.span3:nth-child(4n+1),
+.thumbnails > li.span4:nth-child(3n+1),
+.thumbnails > li.span6:nth-child(2n+3) {
+  margin-left: 0 !important;
+}
+li{list-style-type:none;}
+/* Thumbnail Styles */
+.thumbnail {
+  position: relative;
+  height: 150px;
+width:150px;
+float:right;
+
+  background: #fff;
+  /* force the image to occupy the entire div/container */
+  /* Add a spinner so viewers will know that a media is loading */
+}
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+.thumbnail .video-icon {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+.thumbnail .btn-likes,
+.thumbnail .btn-comments {
+  position: absolute;
+  bottom: 10px;
+}
+.thumbnail .btn-likes {
+  left: 10px;
+}
+.thumbnail .btn-comments {
+  right: 10px;
+}
+.thumbnail .loader {
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  background: url("http://img.cdn.tl/loading2.gif") center center no-repeat;
+}
+
+/**
+ * Modal Styles
+ * you may use default bootstrap modal, but since we would like the modal 
+ * window to show a slightly larger size of the media, I think it's a good 
+ * idea to modify it and expand the width a bit with a faster fade-in transition
+ * speed.
+ *
+ */
+.modal {
+  top: 20%;
+  left: 50%;
+  z-index: 1050;
+  width: 820px;
+  margin-left: -410px;
+  border: 0 none !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.modal.fade {
+  top: -25%;
+  -webkit-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -o-transition: all 100ms linear;
+  transition: all 100ms linear;
+}
+.modal .modal-header {
+  position: relative;
+  height: 0;
+  padding: 0;
+  border-bottom: 0 none;
+}
+.modal .modal-header .close {
+  position: absolute;
+  top: -28px;
+  right: 5px;
+  color: #fff;
+  opacity: 1;
+  text-shadow: 0 1px 1px #000;
+}
+.modal .modal-body {
+  position: relative;
+  max-height: 460px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.modal .modal-img {
+  height: 460px;
+}
+.modal .modal-comments {
+  height: 460px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  border-top: 5px solid #E76E66;
+  color: #232323;
+}
+.modal .media {
+  padding: 10px;
+}
+.modal .media:nth-of-type(odd) {
+  background: #fbfbfb;
+}
+.modal .media:nth-of-type(even) {
+  background: #fff;
+}
+
+@media (max-width: 767px) {
+  .modal {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  .modal.fade.in {
+    top: -2px;
+  }
+  .modal .modal-header {
+    height: 0;
+  }
+  .modal .modal-header .close {
+    position: absolute;
+    top: 5px;
+    right: 50%;
+    z-index: 1051;
+    display: block;
+    width: 200px;
+    margin-right: -100px;
+    padding: 5px 20px 2px 20px;
+    overflow: hidden;
+    color: #fff;
+    opacity: 0.25;
+    text-shadow: 0 1px 1px #000;
+    border-bottom: 5px solid #000;
+    background: #000;
+  }
+  .modal .modal-header .close:after {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: normal;
+    vertical-align: middle;
+    content: " \00a0 Tap Here to Close";
+  }
+  .modal .modal-header .close:hover {
+    color: #E76E66;
+  }
+  .modal .modal-body {
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .modal .modal-body > .row-fluid,
+  .modal .modal-body .modal-img,
+  .modal .modal-body .modal-comments {
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .modal .modal-body > .row-fluid > [class*="span"]:first-child {
+    height: 70%;
+    min-height: 70%;
+    max-height: 70%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .modal .modal-body > .row-fluid > [class*="span"]:last-child {
+    height: 30%;
+    min-height: 30%;
+    max-height: 30%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .modal .modal-body .modal-img > img {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal .modal-body .modal-comments {
+    margin-top: 0;
+    font-size: 12px;
+    color: #fff;
+    background: rgba(35, 35, 35, 0.25);
+  }
+  .modal .modal-body .modal-comments .media {
+    padding: 2px 10px;
+    color: #fff;
+  }
+  .modal .modal-body .modal-comments .media:nth-of-type(odd) {
+    background: rgba(35, 35, 35, 0.75);
+  }
+  .modal .modal-body .modal-comments .media:nth-of-type(even) {
+    background: rgba(35, 35, 35, 0.75);
+  }
+  .modal .modal-body .modal-comments .media a.pull-left {
+    float: left;
+  }
+}
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+/* Gallery Shortcode */
+.gallery-row { padding: 15px 0; }
+
+
+#mid{background-image: url("../img/ricepaper.png");
+width:100%;padding-top:50px;}
+#circles{padding-top:50px;}
+#blurred{background-image: url("../img/nyc_video12-8262013.jpg");
+background-attachment: fixed;
+         background-position: 50% 0;
+         background-repeat: no-repeat;
+         height: 950px;
+         position: relative;}
+#green{padding-top:200px; height: 1500px;}
+#almostfooter{background-image: url("../img/nyc_video12-8262013.jpg");
+background-attachment: fixed;
+         background-position: 50% 0;
+         background-repeat: no-repeat;
+         height: 450px;
+         position: relative;
+         width:100%;}
+         .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.circles1{padding-top:50px; padding-bottom:50px;}
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: @screen-sm) {
+#green{padding-top:300px;}
+
+ }
+
+@media (min-width: @screen-md) { }
+
+@media (min-width: @screen-lg) { }
