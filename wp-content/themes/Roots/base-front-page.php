@@ -145,6 +145,7 @@ $(document).ready(function () {
 
       </div>
     </div>
+    </section>
 
        
             
@@ -199,7 +200,7 @@ $(document).ready(function () {
 <div id="blurred"  data-stellar-background-ratio="0.4">
 
 
-
+<section>
 <div class="container">
           <div class="row">
           <div class="circles1">
@@ -222,7 +223,7 @@ $(document).ready(function () {
           </div>
         </div>
         </div>
-        <div class="clearfix visible-xs"></div>
+        <div class="clearfix visible-xs"></div></section>
 <script>
 		$(function(){
 			$.stellar({
@@ -237,25 +238,30 @@ $(document).ready(function () {
 
 
 </div>
+
 <div class="container">
 <div class="row">
 <div id="green">
       <div id="main" class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
-      </div><!-- /.main --></div></div>
-      <?php if (roots_display_sidebar()) : ?>
-        <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
-          <?php include roots_sidebar_path(); ?>
-        </aside><!-- /.sidebar -->
-      <?php endif; ?>
+      </div><!-- /.main -->
+ </div>
+ </div>
+ </div>
+    
+      
+<div class="row">
 
-</div></div>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
-  <div id="almostfooter"  data-stellar-background-ratio="0.2"></div>
 
+
+  <div id="almostfooter"  data-stellar-background-ratio="0.2">
   <?php get_template_part('templates/footer'); ?>
-  </div
+  </div>
+</div>
+
+
 
 </body>
 </html>

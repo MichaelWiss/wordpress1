@@ -6552,6 +6552,10 @@ li {
 /* ==========================================================================
    Primary Content
    ========================================================================== */
+.main {
+  max-height: 100%;
+  padding-bottom: 50px;
+}
 /* Gallery Shortcode */
 .gallery-row {
   padding: 15px 0;
@@ -6561,7 +6565,7 @@ li {
   width: 100%;
   padding-top: 50px;
 }
-#circles {
+#circles1 {
   padding-top: 50px;
 }
 #blurred {
@@ -6569,12 +6573,12 @@ li {
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  height: 950px;
+  max-height: 100%;
   position: relative;
 }
 #green {
   padding-top: 200px;
-  height: 1500px;
+  max-height: 100%;
 }
 #almostfooter {
   background-image: url("../img/nyc_video12-8262013.jpg");
@@ -6625,9 +6629,7 @@ figure.alignnone {
    Media Queries
    ========================================================================== */
 @media (min-width: 768px) {
-  #green {
-    padding-top: 300px;
-  }
+  
 }
 @media (min-width: 992px) {
   
