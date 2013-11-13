@@ -93,7 +93,7 @@ $(document).ready(function () {
   <div class="accordion-group">
     <div class="accordion-heading" class="">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-        <button class="btn btn-large btn-block " type="button">More Information</button>
+        <button id="uno1" type="button"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> More Information</button>
       </a>
     </div>
     <div id="collapseOne" class="accordion-body collapse in"><div class="wrap container" role="document">
@@ -105,7 +105,7 @@ $(document).ready(function () {
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-        <button id="uno">Even More Information</button>
+        <button id="uno"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> Even More Information</button>
       </a>
     </div>
     <div id="collapseTwo" class="accordion-body collapse">
@@ -118,7 +118,7 @@ $(document).ready(function () {
 </div>
 <div id="sub">
 <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 C 50 100 80 100 100 0 Z"/>
+        <path d="M0 0 C 50 100 95 100 100 0 Z"/>
       </svg>
 </path>
 
@@ -243,7 +243,13 @@ $(document).ready(function () {
 <div class="row">
 <div id="green">
       <div id="main" class="main <?php echo roots_main_class(); ?>" role="main">
-        <?php include roots_template_path(); ?>
+      <div class="box-outer">
+      <div class="box">
+        <div class="back"></div><div class="text">
+        <?php include roots_template_path(); ?> </div>
+    </div>
+    </div>
+
       </div><!-- /.main -->
  </div>
  </div>
