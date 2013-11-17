@@ -12,4 +12,5 @@
     </div>
   </div>
   <link rel="shortcut icon" href="assets/ico/favicon.png">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </header>

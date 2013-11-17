@@ -29,6 +29,8 @@ function roots_scripts() {
   wp_enqueue_script('easing', get_template_directory_uri() . '/assets/js/plugins/easing.min.js', false, null, false); 
   wp_enqueue_script('sticky', get_template_directory_uri() . '/assets/js/plugins/jquery.sticky.js', false, null, false); 
   wp_enqueue_script('migrate', get_template_directory_uri() . '/assets/js/plugins/migrate.js', false, null, false); 
+  wp_enqueue_script('inview', get_template_directory_uri() . '/assets/js/plugins/jquery.inview.js', false, null, false); 
+  
   
 
 

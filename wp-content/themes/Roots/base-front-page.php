@@ -12,28 +12,14 @@
       get_template_part('templates/header');
     }
   ?>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <div class="container-fluid">
 
 <div id="main" role="main">
 <div id="revo">
 <?php putRevSlider("slider1") ?></div>
 
-      <!--<section class="slider">
-        <div class="flexslider">
-          <ul class="slides">
-            <li>
-              <img src="assets/img/Nature_Volcanoes_Chaiten_volcano_in_Chile_021391_.jpg" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
-            </li>
-            <li>
-              <img src="assets/img/APTOPIX.jpg" alt="slide image" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
-            </li>
-            
-          </ul>
-        </div>
-      </section>
-      </div>-->
+      
        <script type="text/javascript">
     $(window).load(function () {
     $('.flexslider').flexslider({
@@ -58,33 +44,7 @@ $(document).ready(function () {
   </script>
   
 
-<!--
 
-<div id="myCarousel" class="carousel slide">-->
-  <!--<ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-  </ol>
-
-  -->
-  <!-- Carousel items -->
-  <!--
-
-  <div class="carousel-inner">
-    <div class="active item"><img src="assets/img/volcano.jpg" alt="slide image"></div>
-    <div class="item"><img src="assets/img/APTOPIX.jpg" alt="slide image"></div>
-    <div class="item"><img src="assets/img/Nature_Volcanoes_Chaiten_volcano_in_Chile_021391_.jpg" alt="slide image"></div>
-    <div class="item"><img src="http://placehold.it/1600x500&text=Slide Image 4" alt="slide image"></div>
-  </div>
-  -->
-  <!-- Carousel nav -->
-  <!--
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-</div>
--->
 
 
 
@@ -96,7 +56,7 @@ $(document).ready(function () {
         <button id="uno1" type="button"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> More Information</button>
       </a>
     </div>
-    <div id="collapseOne" class="accordion-body collapse in"><div class="wrap container" role="document">
+    <div id="collapseOne" class="accordion-body collapse "><div class="wrap container" role="document">
       <div class="accordion-inner">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, orci ac laoreet cursus, dolor sem luctus lorem, eget consequat magna felis a magna. Aliquam scelerisque condimentum ante, eget facilisis tortor lobortis in. In interdum venenatis justo eget consequat. Morbi commodo rhoncus mi nec pharetra. Aliquam erat volutpat. Mauris non lorem eu dolor hendrerit dapibus. Mauris mollis nisl quis sapien posuere consectetur. Nullam in sapien at nisi ornare bibendum at ut lectus. Pellentesque ut magna mauris. Nam viverra suscipit ligula, sed accumsan enim placerat nec. Cras vitae metus vel dolor ultrices sagittis. Duis venenatis augue sed risus laoreet congue ac ac leo. Donec fermentum accumsan libero sit amet iaculis. Duis tristique dictum enim, ac fringilla risus bibendum in. Nunc ornare, quam sit amet ultricies gravida, tortor mi malesuada urna, quis commodo dui nibh in lacus. Nunc vel tortor mi. Pellentesque vel urna a arc
       </div></div>
@@ -110,19 +70,54 @@ $(document).ready(function () {
     </div>
     <div id="collapseTwo" class="accordion-body collapse">
       <div class="accordion-inner">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, orci ac laoreet cursus, dolor sem luctus lorem, eget consequat magna felis a magna. Aliquam scelerisque condimentum ante, eget facilisis tortor lobortis in. In interdum venenatis justo eget consequat. Morbi commodo rhoncus mi nec pharetra. Aliquam erat volutpat. Mauris non lorem eu dolor hendrerit dapibus. Mauris mollis nisl quis sapien posuere consectetur. Nullam in sapien at nisi ornare bibendum at ut lectus. Pellentesque ut magna mauris. Nam viverra suscipit ligula, sed accumsan enim placerat nec. Cras vitae metus vel dolor ultrices sagittis. Duis venenatis augue sed risus laoreet congue ac ac leo. Donec fermentum accumsan libero sit amet iaculis. Duis tristique dictum enim, ac fringilla risus bibendum in. Nunc ornare, quam sit amet ultricies gravida, tortor mi malesuada urna, quis commodo dui nibh in lacus. Nunc vel tortor mi. Pellentesque vel urna a arc
+        <?php echo do_shortcode( '[contact-form-7 id="118" title="first"]' ); ?> </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+        <button id="uno3"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> And Even More Information</button>
+      </a>
+    </div>
+    <div id="collapseThree" class="accordion-body collapse">
+      <div class="accordion-inner">
+       <div id="map-canvas">nnnnnnnnnn
+
+
+       nnnnnnnnnnnnnnnnnnn
+
+
+
+
+       </div>
       </div>
     </div>
   </div>
 </div>
 </div>
 <div id="sub">
-<svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 C 50 100 95 100 100 0 Z"/>
-      </svg>
-</path>
+<svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+				<path d="M0 0 L50 100 L100 0 Z" />
+			</svg>
 
 </div>
+
+<script>
+$('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+  if (isInView) {
+    // element is now visible in the viewport
+    if (visiblePartY == 'top') {
+      // top part of element is visible
+    } else if (visiblePartY == 'bottom') {
+      // bottom part of element is visible
+    } else {
+      // whole part of element is visible
+    }
+  } else {
+    // element has gone out of viewport
+  }
+});
+</script>
 
 <div id="mid">
 <div class="container">
@@ -204,26 +199,33 @@ $(document).ready(function () {
 <div class="container">
           <div class="row">
           <div class="circles1">
-            <div class=".col-xs-6 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4 ">
+            
+            <div class="circ"
               <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
-              
+            </div>  
             
             </div>
 
-            <div class=".col-xs-6 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4 ">
+            <div class="circ"
               <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
-              
+            </div>  
             </div>
 
-            <div class=".col-xs-6 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4 ">
+            <div class="circ"
               <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
-              
+            </div>  
             </div>
             </div>
           </div>
         </div>
         </div>
-        <div class="clearfix visible-xs"></div></section>
+        <div class="clearfix visible-xs"></div>
+   </section>
+
+   
 <script>
 		$(function(){
 			$.stellar({
@@ -258,8 +260,60 @@ $(document).ready(function () {
       
 <div class="row">
 
+
+<!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Spy on me</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <div class="service-item">
+              <a class="github" href="https://github.com/MichaelWiss"><i class="service-icon fa fa-github"></i></a>
+              <h4>Spacecraft Repair</h4>
+              <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-instagram"></i>
+              <h4>Problem Solving</h4>
+              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-linkedin-square"></i>
+              <h4>Blacksmithing</h4>
+              <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-pencil"></i>
+              <h4>Pencil Sharpening</h4>
+              <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+
+      <div id="contact" class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small></iframe>
+    </div>
+    <!-- /Map -->
+
+
     </div><!-- /.content -->
   </div><!-- /.wrap -->
+
+
 
 
   <div id="almostfooter"  data-stellar-background-ratio="0.2">

@@ -6,6 +6,26 @@ var ExampleSite = {
   common: {
     init: function() {
       // JS here
+
+      $(window).load(function () {
+    $('.flexslider').flexslider({
+        animation: "fade",
+        controlsContainer: ".flex-container",
+        slideshowSpeed: 5000,
+        animationDuration: 1000,
+        directionNav: true,
+        controlNav: false,
+        pauseOnHover: true,
+        itemWidth: 1024
+    });
+});
+
+$(document).ready(function () {
+    $(".flex-container.home ul.flex-direction-nav").hide();
+  $(".flex-container.home").hover( function () {
+         $(" ul.flex-direction-nav").fadeToggle();
+    });
+});
     },
     finalize: function() { }
   },

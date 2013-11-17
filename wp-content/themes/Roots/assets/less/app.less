@@ -8,7 +8,7 @@
    Base
    ========================================================================== */
 
-body {background-color: #BFC7A7;}
+body {background-color: #ECDFBD;}
       
        
 
@@ -70,28 +70,36 @@ button.navbar-toggle collapsed{color:#17693C;}
 
 .content { }
 
-.btn{background-color:#F55C45; display: block;
-    
-   width:100%;
-}
-.accordion{padding-top: 0; padding-bottom:100px;}
-.accordion-toggle{color:black;}
-.btn{background-color:#1B7AE0;}
-.accordion-inner{background-color:#B8756A}
+
 
 
 
 
 /*slider revolution caption*/
-#revo{}
+#revo{border:none;}
 .tp-caption.very_large_text{font-family:lato;}
 .tp-caption.small_text1{color: #F02B1D;font-family:lato;}
+
 
 /* buttons */
 
 
+.btn{background-color:#F55C45; display: block;
+    
+   width:100%; outline:none;
+}
+#accordion2{padding-top:0px;}
+.accordion{padding-top: 0px; padding-bottom:0px;
+}
+.accordion-toggle{color:black;}
+.btn{background-color:#1B7AE0;}
+.accordion-inner{background-image: url("../img/ricepaper.png");}
+.accordion-heading{padding-top:0px;}
+
 #uno1{background-color:#265191; color:grey; width:100%;
 height:100px;
+border:none;
+margin-top:-10px;
 /*Transition*/
 -webkit-transition: All 0.5s ease;
 -moz-transition: All 0.5s ease;
@@ -103,6 +111,7 @@ transition: All 0.5s ease;}
 
 #uno{background-color:#20457C; color:grey; width:100%;
 height:100px;
+border:none;
 /*Transition*/
 -webkit-transition: All 0.5s ease;
 -moz-transition: All 0.5s ease;
@@ -112,52 +121,158 @@ transition: All 0.5s ease;
 }
 #uno:hover{background-color:#13294A; color:white;}
 
+#uno3{background-color:#173159; color:grey; width:100%;
+height:100px;
+border:none;
+margin-top:-10px;
+/*Transition*/
+-webkit-transition: All 0.5s ease;
+-moz-transition: All 0.5s ease;
+-o-transition: All 0.5s ease;
+-ms-transition: All 0.5s ease;
+transition: All 0.5s ease;}
+#uno3:hover{background-color:#13294A; color:white;}
+
 
 
 
 
 /* end buttons */
+.circ{text-align:center; position:relative; 
+display: inline-block; padding:50px 0px 50px 0px;}
+/* Services */
+
+.services {
+  background: #7fbbda;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+.github {
+color:#ffffff;
+/*Transition*/
+-webkit-transition: All 0.5s ease;
+-moz-transition: All 0.5s ease;
+-o-transition: All 0.5s ease;
+-ms-transition: All 0.5s ease;
+transition: All 0.5s ease;}
+.github hover{color:#5E3448;}
+/* Map */
+
+.map {
+  height: 500px;
+}
+
+footer{display:none;}
+embed, object, iframe{max-width: 100%;}
+
+/*#sub{background-image: url("../img/ricepaper.png");}*/
+#sub{background-color: #ECDFBD;}
 
 
-#sub{background-image: url("../img/grid.png");}
-#sub{background-color: red;}
 
-/* Curves */
-#curveUpColor path,
-#curveDownColor path {
-   fill: #BFC7A7;
-   stroke: #BFC7A7;
+svg#bigTriangleColor {
+   pointer-events: none;
+}
+
+#bigTriangleColor path {
+   fill: #0B182B;
+   stroke: #0B182B;
+   stroke-width: 1;
+}
+
+/* contact form */
+
+body input[type=text].wpcf7-not-valid, body input[type=email].wpcf7-not-valid, body input[type=tel].wpcf7-not-valid, body textarea.wpcf7-not-valid {
+border: 1px solid #ec3c06;
+}
+
+body span.wpcf7-not-valid-tip {
+display: block;
+color: #ec3c06;
+border: none;
+position: relative;
+top: auto;
+left: auto;
+padding: 0;
+margin-top: 2px;
+background: none;
+font-size: 15px;
+}
+
+body div.wpcf7-validation-errors {
+background: #ffe2e2;
+border: 1px solid #ff8a8a;
+color: #ec3c06;
+}
+
+body div.wpcf7-response-output {
+margin: 10px 0;
+padding: 20px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-radius: 5px;
+}
+
+body .wpcf7-mail-sent-ng {
+background: #fff2e2;
+border: 1px solid #ffbc8a;
+color: #e17731;
+}
+
+body .wpcf7-mail-sent-ok {
+background: #e8ffe2;
+border: 1px solid #6fdf51;
+color: #1ea524;
+}
+
+/* Contact 7 Forms
+--------------------------------------------- */
+
+form.wpcf7-form {
+
+text-align: center;
+}
+
+input#formname, #emailform, #subject, #message {
+width:75%%;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+input#formname {
+margin-top: 20px;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+margin-bottom: 20px;
+background-color: #00529b;
+width: 50%;
+}
+
+input.wpcf7-form-control.wpcf7-submit input:hover[type="button"], input:hover[type="reset"], input:hover[type="submit"], .button:hover, .entry-content .button:hover {
+background-color: #f15123;
 }
 
 
-/* Zig Zag (3d up and simple down) */
-.ss-style-zigzag::before,
-.ss-style-zigzag::after {
-    right: 0;
-    left: 0;
-    z-index: 10;
-    display: block;
-    height: 90px;
-    background-size: 50px 100%;
-  }
 
-.ss-style-zigzag::before {
-   top: -90px;
-   background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #3498db));
-   background-image:
-      linear-gradient(315deg, #3093d5 25%, transparent 25%),
-      linear-gradient( 45deg, #3498db 25%, transparent 25%);
-   background-position: 50%;
-}
 
-.ss-style-zigzag::after {
-   top: 100%;
-   background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #3498db), color-stop(0.25, #2980b9));
-   background-image: 
-      linear-gradient(135deg, #3498db 25%, transparent 25%),
-      linear-gradient(225deg, #3498db 25%, transparent 25%);
-   background-position: 50%;
-}
 
 /*
  * jQuery FlexSlider v2.2.0
@@ -514,7 +629,7 @@ border-radius:5px;}
             top: 0; left: 0; width: 100%; height: 100%;
             background: white; opacity: 0.50;
             border-radius:5px;
-            border: 1px solid #000;
+            border: none;
               
         }
    .box-outer{background-image: url("../img/Blurred-city-lights488.jpg");
@@ -533,17 +648,19 @@ border-radius:5px;}
    
 
 
-#mid{background-image: url("../img/ricepaper.png");
+/* #mid{background-image: url("../img/ricepaper.png");}*/
+#mid{background-color: #ECDFBD;
 width:100%;padding-top:50px;}
-#circles1{padding-top:50px;}
-#blurred{background-image: url("../img/nyc_video12-8262013.jpg");
+#circles1{padding-top:50px; height:100%;}
+#blurred{background-image: url("../img/Blurred-city-lights488.jpg");
 background-attachment: fixed;
          background-position: 50% 0;
          background-repeat: no-repeat;
-         max-height: 100%;
+         height: 100%;
+         width: 100%;
          position: relative;}
 #green{padding-top:100px; padding-bottom:100px; max-height: 100%;}
-#almostfooter{background-image: url("../img/nyc_video12-8262013.jpg");
+#almostfooter{background-image: url("../img/urban_new_york_city_bokeh_night_streetscape_1280x800_48979.jpg");
 background-attachment: fixed;
          background-position: 50% 0;
          background-repeat: no-repeat;
@@ -600,12 +717,18 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
-@media (min-width: @screen-sm) {
-#green{}
-
- }
 
 @media (min-width: @screen-md) { }
 
-@media (min-width: @screen-lg) { }
+@media (min-width: @screen-lg) {
+
+
+
+}
+
+@media (min-width: @screen-sm) {
+
+
+ }
+
 
