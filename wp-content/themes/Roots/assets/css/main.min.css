@@ -7335,7 +7335,7 @@ button.navbar-toggle collapsed {
 }
 /* line 155, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 i.service-icon {
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
   font-size: 56px;
@@ -7361,7 +7361,7 @@ i.service-icon {
 }
 /* Map */
 /* line 177, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
-.map {
+#map {
   height: 500px;
 }
 /* line 181, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
