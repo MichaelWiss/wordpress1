@@ -104,7 +104,7 @@ $(document).ready(function () {
 </div>
 
 <script>
-$('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+$('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
   if (isInView) {
     // element is now visible in the viewport
     if (visiblePartY == 'top') {
@@ -205,20 +205,20 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
             <div class="col-xs-12 col-sm-4 col-md-4 ">
             
             <div class="circ">
-              <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
+              <a href="#"><div class="circle"><p> Hello I am A Circle Hello I am A CircleHello I am A CircleHello I am A CircleHello I am A CircleHello I am A CircleHello I am A CircleHello I am A Circle</p></a></div>
             </div>  
             
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 ">
             <div class="circ">
-              <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
+              <a href="#"><div class="circle"><p>Hello I am A Circle </p></div></a>
             </div>  
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 ">
             <div class="circ">
-              <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
+              <a href="#"><div class="circle">Hello I am A Circle </div></a>
             </div>  </div> 
             </div>
             </div>
@@ -250,7 +250,7 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
 <div class="row">
 <div id="green">
       <div id="main" class="main <?php echo roots_main_class(); ?>" role="main">
-      <div class="box-outer">
+      <div id="box-outer" data-stellar-background-ratio="0.4">
       <div class="box">
         <div class="back"></div><div >
         <?php include roots_template_path(); ?> </div>

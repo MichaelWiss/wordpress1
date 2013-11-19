@@ -8094,8 +8094,8 @@ li {
   border: none;
 }
 /* line 652, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
-.box-outer {
-  background-image: url("../img/Blurred-city-lights488.jpg");
+#box-outer {
+  background-image: url("../img/bokeh___new_york_city.jpg");
   z-index: 0;
   border-radius: 5px;
   margin: 0 auto;
@@ -8104,51 +8104,75 @@ li {
   padding-top: 0;
   display: table-cell;
   vertical-align: middle;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
-/* line 662, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 667, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .box-outer .text {
   position: relative;
   z-index: 2;
   margin: 15px;
 }
-/* line 667, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 672, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .box .page-header {
   margin: 0;
   padding: 0;
 }
-/* line 668, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 673, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .box .page-header h1 {
   text-align: center;
+  color: #B4E825;
 }
-/* line 669, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 674, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 div.text.outer {
   margin: 0;
   padding: 0px;
   height: 100%;
 }
-/* line 671, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 676, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body.browser-ie8 .box .back {
   filter: alpha(opacity=75);
 }
+/* line 680, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  color: #6E7778;
+  border: 1.5px solid #6E7778;
+  font-size: 15px;
+  text-align: center;
+  background-image: url("../img/ricepaper.png");
+}
+/* line 693, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+.circle p {
+  width: 75%;
+  height: 75%;
+  margin: 20% auto 0 auto;
+}
 /* #mid{background-image: url("../img/ricepaper.png");}*/
-/* line 678, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 701, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #mid {
   background-color: #ECDFBD;
   width: 100%;
   padding-top: 50px;
 }
-/* line 680, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 703, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #circles1 {
   padding-top: 50px;
   height: 100%;
 }
-/* line 682, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 705, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #green {
   padding-top: 100px;
   padding-bottom: 100px;
   max-height: 100%;
 }
-/* line 683, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 706, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #almostfooter {
   background-image: url("../img/urban_new_york_city_bokeh_night_streetscape_1280x800_48979.jpg");
   background-attachment: fixed;
@@ -8158,17 +8182,17 @@ body.browser-ie8 .box .back {
   width: 100%;
   position: relative;
 }
-/* line 692, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 715, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #almost {
   width: 100%;
 }
-/* line 693, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 716, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 698, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 721, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .circles1 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -8186,20 +8210,20 @@ body.browser-ie8 .box .back {
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
-/* line 732, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 755, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .aligncenter {
   display: block;
   margin: 0 auto;
 }
-/* line 733, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 756, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .alignleft {
   float: left;
 }
-/* line 734, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 757, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .alignright {
   float: right;
 }
-/* line 735, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 758, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 figure.alignnone {
   margin-left: 0;
   margin-right: 0;
