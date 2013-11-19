@@ -10,6 +10,31 @@
 
 body {background-color: #ECDFBD;}
       
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'utilityboldcondensed';
+    src: url('UTILITY-webfont.eot');
+    src: url('UTILITY-webfont.eot?#iefix') format('embedded-opentype'),
+         url('UTILITY-webfont.woff') format('woff'),
+         url('UTILITY-webfont.ttf') format('truetype'),
+         url('UTILITY-webfont.svg#utilityboldcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
        
 
 
@@ -184,20 +209,41 @@ transition: All 0.5s ease;}
 footer{display:none;}
 embed, object, iframe{max-width: 100%;}
 
-/*#sub{background-image: url("../img/ricepaper.png");}*/
+/*div seperator*/
+
+
 #sub{background-color: #ECDFBD;}
-
-
-
 svg#bigTriangleColor {
    pointer-events: none;
 }
-
 #bigTriangleColor path {
    fill: #0B182B;
    stroke: #0B182B;
    stroke-width: 1;
 }
+
+#sub2{background-image: url("../img/SemidomesticDotCom_Blue-White-Chevron.png");
+background-repeat:repeat-xy;
+background-attachment: fixed;
+         background-position: 50% 0;
+       
+         height: 450px;
+         width:100%;
+         position: relative;}
+svg#bigTriangleColor {
+   pointer-events: none;
+}
+svg#bigTriangleColor2 {
+   pointer-events: none;
+}
+
+#bigTriangleColor2 path {
+   fill: #7fbbda;
+   stroke: #7fbbda;
+   stroke-width: 1;
+}
+
+/* end div seperator*/
 
 /* contact form */
 
@@ -672,6 +718,7 @@ border-radius:5px; margin:0 auto; }
        .box .page-header{margin:0; padding:0;} 
       .box .page-header h1 {text-align:center; color:#B4E825;}
       div.text.outer{margin:0; padding:0px; height:100%;  }
+      .text{z-ndex:200; margin:15px; color:white;}
 
         body.browser-ie8 .box .back { filter: alpha(opacity=75); 
       }
@@ -703,6 +750,23 @@ width:100%;padding-top:50px;}
 #circles1{padding-top:50px; height:100%;}
 
 #green{padding-top:100px; padding-bottom:100px; max-height: 100%;}
+
+
+#premap{background-image: url("../img/SemidomesticDotCom_Blue-White-Chevron.png");
+background-repeat:repeat-xy;
+background-attachment: fixed;
+         background-position: 50% 0;
+       
+         height: 450px;
+         width:100%;
+         position: relative;
+         }
+
+.prem{text-align:center; padding-top:150px; margin:0; font-family: 'utilityboldcondensed'; border: 5px;border-color:white;}
+#prem1{border: 5px;border-color:white; }
+
+
+
 #almostfooter{background-image: url("../img/urban_new_york_city_bokeh_night_streetscape_1280x800_48979.jpg");
 
 background-attachment: fixed;

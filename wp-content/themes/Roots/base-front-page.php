@@ -306,7 +306,24 @@ $('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visibl
    
     </div>
     <!-- /Services -->
-    
+
+
+    <div id="sub2" data-stellar-background-ratio="0.2">
+<svg id="bigTriangleColor2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+				<path d="M0 0 L50 100 L100 0 Z" />
+			</svg>
+
+</div>
+
+
+
+    <!--chevron-->    
+ 
+
+ <!--end chevron-->
+
+ <div class="row" id="avantmap"></div>
+
 <div class="row" id="map">
      <?php echo do_shortcode( '[wpgmza id="1"]' ); ?>
 
