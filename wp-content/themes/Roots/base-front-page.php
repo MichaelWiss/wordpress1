@@ -70,7 +70,8 @@ $(document).ready(function () {
     </div>
     <div id="collapseTwo" class="accordion-body collapse">
       <div class="accordion-inner">
-        <?php echo do_shortcode( '[contact-form-7 id="118" title="first"]' ); ?> </div>
+        <?php echo do_shortcode( '[contact-form-7 id="116" title="Contact form 1"]' ); ?> </div>
+
     </div>
   </div>
   <div class="accordion-group">
@@ -140,13 +141,14 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
 
       </div>
     </div>
-    </section>
+    
 
        
             
-      </section>
-
-
+   
+     
+      
+</section>
 
   
 
@@ -180,7 +182,7 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
           <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
         </div>
       </div>
-    </div
+    </div></div>
 
 
 
@@ -188,7 +190,7 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
 </div>
 </div>
 </div>
-<div class="ss-style-zigzag col-md-12">
+
 </div>
 
 
@@ -196,31 +198,32 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
 
 
 <section>
-<div class="container">
+
           <div class="row">
           <div class="circles1">
+          <div class="container">
             <div class="col-xs-12 col-sm-4 col-md-4 ">
             
-            <div class="circ"
+            <div class="circ">
               <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
             </div>  
             
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 ">
-            <div class="circ"
+            <div class="circ">
               <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
             </div>  
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 ">
-            <div class="circ"
+            <div class="circ">
               <a href="#"><img class="img-responsive img-circle" src="assets/img/feat1.jpg"></a>
-            </div>  
+            </div>  </div> 
             </div>
             </div>
           </div>
-        </div>
+       
         </div>
         <div class="clearfix visible-xs"></div>
    </section>
@@ -240,6 +243,8 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
 
 
 </div>
+</div>
+
 
 <div class="container">
 <div class="row">
@@ -247,7 +252,7 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
       <div id="main" class="main <?php echo roots_main_class(); ?>" role="main">
       <div class="box-outer">
       <div class="box">
-        <div class="back"></div><div class="text">
+        <div class="back"></div><div >
         <?php include roots_template_path(); ?> </div>
     </div>
     </div>
@@ -256,14 +261,12 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
  </div>
  </div>
  </div>
-    
-      
-<div class="row">
+ </div>
 
-
+</div>
 <!-- Services -->
     <div id="services" class="services">
-      <div class="container">
+     
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
             <h2>Spy on me</h2>
@@ -300,20 +303,26 @@ $('#mid' 'blurred').bind('inview', function(event, isInView, visiblePartX, visib
             </div>
           </div>
         </div>
-      </div>
+   
     </div>
     <!-- /Services -->
+    
 <div class="row" id="map">
      <?php echo do_shortcode( '[wpgmza id="1"]' ); ?>
 
 
 
 </div>
+</div>
+
+
     </div><!-- /.content -->
   </div><!-- /.wrap -->
+</div>
 
 
 
+<div class="row">
 
   <div id="almostfooter"  data-stellar-background-ratio="0.2">
   <?php get_template_part('templates/footer'); ?>
