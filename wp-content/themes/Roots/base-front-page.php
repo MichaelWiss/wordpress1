@@ -12,10 +12,16 @@
       get_template_part('templates/header');
     }
   ?>
+
+
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <div class="container-fluid">
 
 <div id="main" role="main">
+
+<!--Begin revo slider-->
+
 <div id="revo">
 <?php putRevSlider("slider1") ?></div>
 
@@ -46,7 +52,12 @@ $(document).ready(function () {
 
 
 
+<!--end revo slider-->
 
+
+
+
+<!--begin accordion-->
 
 
 <div class="accordion" id="accordion2">
@@ -58,7 +69,96 @@ $(document).ready(function () {
     </div>
     <div id="collapseOne" class="accordion-body collapse "><div class="wrap container" role="document">
       <div class="accordion-inner">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, orci ac laoreet cursus, dolor sem luctus lorem, eget consequat magna felis a magna. Aliquam scelerisque condimentum ante, eget facilisis tortor lobortis in. In interdum venenatis justo eget consequat. Morbi commodo rhoncus mi nec pharetra. Aliquam erat volutpat. Mauris non lorem eu dolor hendrerit dapibus. Mauris mollis nisl quis sapien posuere consectetur. Nullam in sapien at nisi ornare bibendum at ut lectus. Pellentesque ut magna mauris. Nam viverra suscipit ligula, sed accumsan enim placerat nec. Cras vitae metus vel dolor ultrices sagittis. Duis venenatis augue sed risus laoreet congue ac ac leo. Donec fermentum accumsan libero sit amet iaculis. Duis tristique dictum enim, ac fringilla risus bibendum in. Nunc ornare, quam sit amet ultricies gravida, tortor mi malesuada urna, quis commodo dui nibh in lacus. Nunc vel tortor mi. Pellentesque vel urna a arc
+
+
+      <!--begin resume-->
+     <div class="resume">   
+     <div="hd">
+      <div class="container">
+        <div class="row">
+
+        <div class="col-md-9 col-xs-12" id="resname">
+              <h1>Michael Wiss</h1>
+              <h2> Web Developer</h2>
+        </div>
+
+        <div class="col-md-3 col-xs-12" id="contact-info">
+              <h3><a id="pdf" href="#">Download PDF</a></h3>
+              <h3><a id="email" href="mailto:michael.wiss@gmail.com">michael.wiss@gmail.com</a></h3>
+						  <h3>(917)-627-4004</h3>
+				</div>
+				
+        	
+
+        </div>
+     </div>
+    </div>
+      <div id="bd">
+			<div class="container">
+				<div class="row">
+
+					
+						<div class="col-md-2 col-sm-2 col-xs-2">
+							<h2>Profile</h2>
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10">
+							<p class="enlarge">
+								Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change. 
+							</p>
+						</div>
+					</div>
+
+
+						<div class="yui-gf">
+						<div class="col-md-2 col-sm-2 col-xs-2"">
+							<h2>Skills</h2>
+						</div>
+						<div class="yui-u">
+
+								<div class="talent">
+									<h2>Web Design</h2>
+									<p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
+								</div>
+
+								<div class="talent">
+									<h2>Interface Design</h2>
+									<p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
+								</div>
+
+								<div class="talent">
+									<h2>Project Direction</h2>
+									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
+								</div>
+						</div>
+					</div>
+
+       
+
+
+
+    </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </div>
+      <!-- end resume-->
+
       </div></div>
     </div>
   </div>
@@ -82,7 +182,7 @@ $(document).ready(function () {
     </div>
     <div id="collapseThree" class="accordion-body collapse">
       <div class="accordion-inner">
-       <div id="map-canvas">nnnnnnnnnn
+       nnnnnnnnnn
 
 
        nnnnnnnnnnnnnnnnnnn
@@ -96,6 +196,11 @@ $(document).ready(function () {
   </div>
 </div>
 </div>
+
+<!--end accordion-->
+
+<!--div seperator-->
+
 <div id="sub">
 <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
 				<path d="M0 0 L50 100 L100 0 Z" />
@@ -103,23 +208,10 @@ $(document).ready(function () {
 
 </div>
 
-<script>
-$('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
-  if (isInView) {
-    // element is now visible in the viewport
-    if (visiblePartY == 'top') {
-      // top part of element is visible
-    } else if (visiblePartY == 'bottom') {
-      // bottom part of element is visible
-    } else {
-      // whole part of element is visible
-    }
-  } else {
-    // element has gone out of viewport
-  }
-});
-</script>
+<!--end div seperator-->
 
+
+<!--flexslider-->
 <div id="mid">
 <div class="container">
 <div class="row">
@@ -150,7 +242,7 @@ $('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visibl
       
 </section>
 
-  
+ <!--end flexslider--> 
 
   <div class="col-xs-2 col-xs-10 col-md-4">
 
@@ -264,8 +356,12 @@ $('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visibl
  </div>
 
 </div>
+
+
+
+
 <!-- Services -->
-    <div id="services" class="services">
+    <div id="services" class="services ">
      
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -308,7 +404,7 @@ $('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visibl
     <!-- /Services -->
 
 
-    <div id="sub2" data-stellar-background-ratio="0.2">
+    <div class="" id="sub2" data-stellar-background-ratio="0.2">
 <svg id="bigTriangleColor2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
 				<path d="M0 0 L50 100 L100 0 Z" />
 			</svg>
@@ -321,14 +417,15 @@ $('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visibl
  
 
  <!--end chevron-->
+ <div class="container-fluid">
+ <div class="row " id="avantmap"></div>
 
- <div class="row" id="avantmap"></div>
-
-<div class="row" id="map">
+<div class="row " id="map">
      <?php echo do_shortcode( '[wpgmza id="1"]' ); ?>
 
 
 
+</div>
 </div>
 </div>
 
@@ -339,7 +436,7 @@ $('#mid' 'blurred' '.box-outer').bind('inview', function(event, isInView, visibl
 
 
 
-<div class="row">
+<div class="row ">
 
   <div id="almostfooter"  data-stellar-background-ratio="0.2">
   <?php get_template_part('templates/footer'); ?>
