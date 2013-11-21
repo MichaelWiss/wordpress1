@@ -98,10 +98,10 @@ $(document).ready(function () {
 				<div class="row">
 
 					
-						<div class="col-md-2 col-sm-2 col-xs-12">
+						<div class="col-md-3 col-sm-3 col-xs-12">
 							<h2>Profile</h2>
 						</div>
-						<div class="col-md-10 col-sm-10 col-xs-12">
+						<div class="col-md-9 col-sm-9 col-xs-12">
 							<p class="enlarge">
 								Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change. 
 							</p>
@@ -113,10 +113,10 @@ $(document).ready(function () {
 
 						<div class="container" id="skills">
 				<div class="row">
-						<div class="col-md-2 col-sm-2 col-xs-12">
+						<div class="col-md-3 col-sm-3 col-xs-12">
 							<h2>Skills</h2>
 						</div>
-						<div class="yui-u">
+						<div class="">
 
 								<div class="col-md-3 col-sm-3 col-xs-12">
 									<h2>Web Design</h2>
@@ -139,7 +139,7 @@ $(document).ready(function () {
 
 <div class="container">
 				<div class="row">
-						<div class="col-md-2 col-sm-2 col-xs-12"">
+						<div class="col-md-3 col-sm-3 col-xs-12">
 							<h2>Technical</h2>
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
@@ -171,7 +171,45 @@ $(document).ready(function () {
 
     </div>
         
+        <div class="container">
+				<div class="row">
+	
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<h2>Experience</h2>
+						</div>
+						<div class="col-md-9 col-sm-9 col-xs-12">
 
+							<div class="job">
+								<h2>WhyHunger</h2>
+								<h3>Web Manager</h3>
+								<h4>2012</h4>
+								<p>Intrinsicly enable optimal core competencies through corporate relationships. Phosfluorescently implement worldwide vortals and client-focused imperatives. Conveniently initiate virtual paradigms and top-line convergence. </p>
+							</div>
+							</div>
+							</div>
+
+<div class="row">
+            <div class="col-md-9 col-md-offset-3 col-sm-9-offset-3 col-xs-12">
+							<div class="job">
+								<h2>Freelance</h2>
+								<h3>Freelancer</h3>
+								<h4>2011</h4>
+								<p>Progressively reconceptualize multifunctional "outside the box" thinking through inexpensive methods of empowerment. Compellingly morph extensive niche markets with mission-critical ideas. Phosfluorescently deliver bricks-and-clicks strategic theme areas rather than scalable benefits. </p>
+							</div>
+              </div>
+              </div>
+
+    <div class="container">
+				<div class="row" id="education">
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<h2>Education</h2>
+						</div>
+						<div class="col-md-9  col-sm-9 col-xs-12">
+							<h2>School of Visual Arts, NY, NY</h2>
+							<h3>Fine Arts &mdash; <strong>3.83 GPA</strong> </h3>
+						</div>
+					</div>
+</div>
 
 
 

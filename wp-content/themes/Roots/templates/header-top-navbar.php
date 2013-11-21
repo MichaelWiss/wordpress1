@@ -69,20 +69,7 @@
     );
 });
   </script>
-  <!--<script>
-  $(window).on('scroll', function() {
-    console.log($(this).scrollTop());
-    if ($(this).scrollTop() > 150 && !$('header').hasClass('visible')) {
-        $('header').animate({opacity : 1}, 'slow', function() {
-            $(this).addClass('visible').removeAttr('style');
-        });
-    } else if ($(this).scrollTop() <= 150 && $('header').hasClass('visible')) {
-        $('header').animate({opacity : 0}, 'slow', function() {
-            $(this).removeClass('visible').removeAttr('style');
-        });
-    }
-});
-  </script>-->
+
   </div>
 </header>
  </div>
