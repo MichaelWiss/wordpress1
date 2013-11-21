@@ -98,40 +98,73 @@ $(document).ready(function () {
 				<div class="row">
 
 					
-						<div class="col-md-2 col-sm-2 col-xs-2">
+						<div class="col-md-2 col-sm-2 col-xs-12">
 							<h2>Profile</h2>
 						</div>
-						<div class="col-md-10 col-sm-10 col-xs-10">
+						<div class="col-md-10 col-sm-10 col-xs-12">
 							<p class="enlarge">
 								Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change. 
 							</p>
 						</div>
 					</div>
+					</div>
+					</div>
 
 
-						<div class="yui-gf">
-						<div class="col-md-2 col-sm-2 col-xs-2"">
+						<div class="container" id="skills">
+				<div class="row">
+						<div class="col-md-2 col-sm-2 col-xs-12">
 							<h2>Skills</h2>
 						</div>
 						<div class="yui-u">
 
-								<div class="talent">
+								<div class="col-md-3 col-sm-3 col-xs-12">
 									<h2>Web Design</h2>
 									<p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
 								</div>
 
-								<div class="talent">
+								<div class="col-md-3-md col-sm-3 col-xs-12">
 									<h2>Interface Design</h2>
 									<p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
 								</div>
 
-								<div class="talent">
+								<div class="col-md-3-offset-1 col-sm-3 col-xs-12">
 									<h2>Project Direction</h2>
 									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
 								</div>
 						</div>
 					</div>
+					</div>
 
+
+<div class="container">
+				<div class="row">
+						<div class="col-md-2 col-sm-2 col-xs-12"">
+							<h2>Technical</h2>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<ul class="talent">
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li class="last">Javascript</li>
+							</ul></div>
+
+							<div class="col-md-3 col-sm-3 col-xs-12">
+
+							<ul class="talent">
+								<li>Jquery</li>
+								<li>PHP</li>
+								<li class="last">Git</li>
+							</ul></div>
+							<div class="col-md-3 col-sm-3 col-xs-12">
+
+							<ul class="talent">
+								<li>OS X</li>
+								<li>Ruby on Rails</li>
+								<li class="last">Cli</li>
+							</ul>
+						</div>
+					</div>
        
 
 
