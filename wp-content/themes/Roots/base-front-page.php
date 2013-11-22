@@ -15,47 +15,23 @@
 
 
 
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <div class="container-fluid">
+ <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+ 
+
+ <div class="container-fluid">
 
 <div id="main" role="main">
 
 <!--Begin revo slider-->
 
 <div id="revo">
-<?php putRevSlider("slider1") ?></div>
-
-      
-       <script type="text/javascript">
-    $(window).load(function () {
-    $('.flexslider').flexslider({
-        animation: "fade",
-        controlsContainer: ".flex-container",
-        slideshowSpeed: 5000,
-        animationDuration: 1000,
-        directionNav: true,
-        controlNav: false,
-        pauseOnHover: true,
-        itemWidth: 1024
-    });
-});
-
-$(document).ready(function () {
-    $(".flex-container.home ul.flex-direction-nav").hide();
-  $(".flex-container.home").hover( function () {
-         $(" ul.flex-direction-nav").fadeToggle();
-    });
-
-})
-  </script>
-  
-
-
+<?php putRevSlider("slider1") ?>
+</div>
 
 <!--end revo slider-->
 
 
-
+<div class="outer">
 
 <!--begin accordion-->
 
@@ -71,7 +47,10 @@ $(document).ready(function () {
       <div class="accordion-inner">
 
 
-      <!--begin resume-->
+      <!---begin resume-->
+
+
+
      <div class="resume">   
      <div="hd">
       <div class="container">
@@ -211,28 +190,17 @@ $(document).ready(function () {
 					</div>
 </div>
 
+</div>
+
+<!--- end resume---->
+
+</div>
+</div>
+</div>
+</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-       </div>
-      <!-- end resume-->
-
-      </div></div>
-    </div>
-  </div>
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
@@ -357,6 +325,9 @@ $(document).ready(function () {
 </div>
 
 
+
+
+
 <div id="blurred"  data-stellar-background-ratio="0.4">
 
 
@@ -392,14 +363,7 @@ $(document).ready(function () {
    </section>
 
    
-<script>
-		$(function(){
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
-			});
-		});
-		</script>
+
 
 
 
@@ -407,6 +371,10 @@ $(document).ready(function () {
 
 </div>
 </div>
+
+
+<!--begin wordpress cms text-->
+
 
 
 <div class="container">
@@ -420,7 +388,10 @@ $(document).ready(function () {
     </div>
     </div>
 
-      </div><!-- /.main -->
+      </div>
+
+
+   <!-- /.main -->
  </div>
  </div>
  </div>
@@ -444,7 +415,7 @@ $(document).ready(function () {
           <div class="col-md-2 col-md-offset-2 text-center">
             <div class="service-item">
               <a class="github" href="https://github.com/MichaelWiss"><i class="service-icon fa fa-github"></i></a>
-              <h4>Spacecraft Repair</h4>
+              <h4>Github</h4>
               <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
             </div>
           </div>
@@ -457,8 +428,8 @@ $(document).ready(function () {
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item">
-              <i class="service-icon fa fa-linkedin-square"></i>
-              <h4>Blacksmithing</h4>
+              <a class="linkedin" href="http://www.linkedin.com/pub/michael-wiss/3b/55a/7a0"><i class="service-icon fa fa-linkedin-square"></i></a>
+              <h4>Linkedin</h4>
               <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
             </div>
           </div>
@@ -516,5 +487,51 @@ $(document).ready(function () {
 
 
 
+<!--------------------- Javascripts -------------------->
+
+<script type="text/javascript">
+    $(window).load(function () {
+    $('.flexslider').flexslider({
+        animation: "fade",
+        controlsContainer: ".flex-container",
+        slideshowSpeed: 5000,
+        animationDuration: 1000,
+        directionNav: true,
+        controlNav: false,
+        pauseOnHover: true,
+        itemWidth: 1024
+    });
+});
+
+$(document).ready(function () {
+    $(".flex-container.home ul.flex-direction-nav").hide();
+  $(".flex-container.home").hover( function () {
+         $(" ul.flex-direction-nav").fadeToggle();
+    });
+
+})
+  </script>
+
+  <script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <!--end outer-->
 </body>
 </html>
