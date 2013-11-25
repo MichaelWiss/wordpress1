@@ -263,17 +263,44 @@
 <div class="row">
 
 
-  <div class="col-xs-12 col-md-8"><section class="slider">
+  <div class="col-xs-12 col-md-8 "><section class="slider">
         <div class="flexslider">
           <ul class="slides">
-            <li>
-              <img src="assets/img/Nature_Volcanoes_Chaiten_volcano_in_Chile_021391_.jpg" />
+   
+           <li>
+              <img src="assets/img/dubrovnik.png" alt="slide image" />
               <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
             </li>
             <li>
-              <img src="assets/img/APTOPIX.jpg" alt="slide image" />
+              <img src="assets/img/hungerthon.png" alt="slide image" />
+              <p class="flex-caption">Michael.</p>
+            </li>
+            <li>
+              <img src="assets/img/imagine.png" alt="slide image" />
               <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
             </li>
+            
+            <li>
+              <img src="assets/img/linz.png" alt="slide image" />
+              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+            </li>
+
+            <li>
+              <img src="assets/img/wiss.png" alt="slide image" />
+              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+            </li>
+
+            <li>
+              <img src="assets/img/secret.png" alt="slide image" />
+              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+            </li>
+
+            <li>
+              <img src="assets/img/port.png" alt="slide image" />
+              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+            </li>
+           
+           
 
     </ul>
 
@@ -290,7 +317,7 @@
 
  <!--end flexslider--> 
 
-  <div class="col-xs-2 col-xs-10 col-md-4">
+  <!--<div class="col-xs-2 col-xs-10 col-md-4">
 
  
 
@@ -325,7 +352,7 @@
 
 
   </div></div>
-</div>
+</div>-->
 </div>
 </div>
 

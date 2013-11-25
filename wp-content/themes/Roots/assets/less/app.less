@@ -498,7 +498,10 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { margin: 0 0 60px; background: #fff; border: 0px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
+.flexslider { margin: 0 0 60px;  zoom: 1; }
+
+
+
 .flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
 .loading .flex-viewport { max-height: 300px; }
 .flexslider .slides { zoom: 1; }
@@ -506,9 +509,25 @@ html[xmlns] .slides {display: block;}
 .flex-caption {
     color:black;
     position:absolute;
-    left:50;right:50;bottom:0;
-    background:rgba(0, 255, 0,0.4);
+    left:50;right:50;bottom:20;
+    background:rgba(160, 160, 168,0.4);
     z-index:1;padding:10px;
+
+    background: none repeat scroll 0 0 rgba(223, 209, 115, 0.9);
+border: 2px solid rgba(207, 155, 43, 0.8);
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.5);
+
+-webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+
+margin-top: 12px;
+padding: 5px;
+width: 310px;
+margin-left:160px;
+
+max-width: 100%;
  }
 
 /* Direction Nav */
