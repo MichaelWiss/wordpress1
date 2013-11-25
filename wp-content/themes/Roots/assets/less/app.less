@@ -85,6 +85,7 @@ button.navbar-toggle collapsed{color:#17693C;}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {color:#C3C6C9;}
 
  
+ .navbar{margin-bottom:0px;}
 
 
 
@@ -104,7 +105,7 @@ button.navbar-toggle collapsed{color:#17693C;}
 
 
 /*slider revolution caption*/
-#revo{border:none;}
+#revo{border:none; margin:0; padding:0;}
 .tp-caption.very_large_text{font-family:lato;}
 .tp-caption.small_text1{color: #F02B1D;font-family:lato;}
 
@@ -789,7 +790,7 @@ float:right;
  
  
 
-   #blurred{background-image: url("../img/Blurred-city-lights488.jpg");
+   #blurred{background-image: url("../img/121610-33.jpg");
 background-attachment: fixed;
          background-position: 50% 0;
          background-repeat: no-repeat;
@@ -842,7 +843,7 @@ border-radius:5px; margin:0 auto; }
         body.browser-ie8 .box .back { filter: alpha(opacity=75); 
       }
    
-
+.circles1{padding-top:50px; padding-bottom:50px; width:100%;}
 .circle
     {
     width:250px;
@@ -902,7 +903,7 @@ background-attachment: fixed;
   margin-left: auto;
   margin-right: auto;
 }
-.circles1{padding-top:50px; padding-bottom:50px;}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -927,8 +928,70 @@ background-attachment: fixed;
    Footer
    ========================================================================== */
 
-.content-info { }
 
+body input[type=text].wpcf7-not-valid, body input[type=email].wpcf7-not-valid, body input[type=tel].wpcf7-not-valid, body textarea.wpcf7-not-valid {
+border: 1px solid #ec3c06;
+}
+
+body span.wpcf7-not-valid-tip {
+display: block;
+color: #ec3c06;
+border: none;
+position: relative;
+top: auto;
+left: auto;
+padding: 0;
+margin-top: 2px;
+background: none;
+font-size: 15px;
+margin:0 auto;
+}
+
+body div.wpcf7-validation-errors {
+background: #ffe2e2;
+border: 1px solid #ff8a8a;
+color: #ec3c06;
+
+}
+
+body div.wpcf7-response-output {
+margin: 10px 0;
+padding: 20px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-radius: 5px;
+}
+
+body .wpcf7-mail-sent-ng {
+background: #fff2e2;
+border: 1px solid #ffbc8a;
+color: #e17731;
+}
+
+body .wpcf7-mail-sent-ok {
+background: #e8ffe2;
+border: 1px solid #6fdf51;
+color: #1ea524;
+}
+
+textarea, input[type=text], input[type=email], input[type=url], input[type=password] {
+border: 1px solid #ccc;
+padding: 10px 20px;
+width: 80%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+.cform{padding-top:20px;
+padding-bottom:20px;}
+ input.wpcf7-form-control.wpcf7-submit {
+  background-color:#FB5A48;
+  border:none;}
+
+  input.wpcf7-form-control.wpcf7-submit:hover{
+  background-color:#5E3448;
+  }
 
 
 /* ==========================================================================

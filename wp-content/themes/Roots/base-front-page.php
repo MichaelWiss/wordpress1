@@ -31,7 +31,7 @@
 <!--end revo slider-->
 
 
-<div class="outer">
+
 
 <!--begin accordion-->
 
@@ -40,7 +40,7 @@
   <div class="accordion-group">
     <div class="accordion-heading" class="">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-        <button id="uno1" type="button"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> More Information</button>
+        <button id="uno1" type="button"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> Resume</button>
       </a>
     </div>
     <div id="collapseOne" class="accordion-body collapse "><div class="wrap container" role="document">
@@ -204,13 +204,20 @@
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-        <button id="uno"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> Even More Information</button>
+        <button id="uno"><span class="glyphicon glyphicon-circle-arrow-down button_text"></span> Contact Me</button>
       </a>
     </div>
     <div id="collapseTwo" class="accordion-body collapse">
       <div class="accordion-inner">
-        <?php echo do_shortcode( '[contact-form-7 id="116" title="Contact form 1"]' ); ?> </div>
+   <!--begin form-->
 
+      <div class="cform ">
+        <?php echo do_shortcode( '[contact-form-7 id="116" title="Contact form 1"]' ); ?> 
+      </div>
+
+    <!-- end form -->
+
+     </div>     
     </div>
   </div>
   <div class="accordion-group">
@@ -328,14 +335,15 @@
 
 
 
-<div id="blurred"  data-stellar-background-ratio="0.4">
+
 
 
 <section>
 
-          <div class="row">
-          <div class="circles1">
-          <div class="container">
+         
+          <div class="circles1" id="blurred"  data-stellar-background-ratio="0.4">
+          <div class="container"
+           <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4 ">
             
             <div class="circ">
@@ -478,12 +486,12 @@
 
 
 
-<div class="row ">
 
-  <div id="almostfooter"  data-stellar-background-ratio="0.2">
+
+  <div id="almostfooter"  data-stellar-background-ratio="0.2" class:"container-fluid">
   <?php get_template_part('templates/footer'); ?>
   </div>
-</div>
+
 
 
 
@@ -532,6 +540,6 @@ $(document).ready(function () {
 
 
 
-</div> <!--end outer-->
+
 </body>
 </html>
