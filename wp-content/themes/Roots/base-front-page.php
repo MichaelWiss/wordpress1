@@ -263,13 +263,13 @@
 <div class="row">
 
 
-  <div class="col-xs-12 col-md-8 "><section class="slider">
+  <div class="col-xs-12 col-md-8 col-md-offset-2"><section class="slider">
         <div class="flexslider">
           <ul class="slides">
    
            <li>
               <img src="assets/img/dubrovnik.png" alt="slide image" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+              <div class="container"><p class="flex-caption">Captions and cupcakes. Winning combination.</p></div>
             </li>
             <li>
               <img src="assets/img/hungerthon.png" alt="slide image" />
@@ -408,6 +408,8 @@
 </div>
 
 
+
+
 <!--begin wordpress cms text-->
 
 
@@ -426,6 +428,8 @@
       </div>
 
 
+
+
    <!-- /.main -->
  </div>
  </div>
@@ -434,6 +438,11 @@
 
 </div>
 
+<div class="row">
+<section class=" col-3 color ss-style-zigzag col-xs-12 col-sm-12 col-md-12" id="zig">
+	
+</section>
+</div>
 
 
 
@@ -522,7 +531,7 @@
 
 
 
-<!--------------------- Javascripts -------------------->
+<!-- Javascripts -->
 
 <script type="text/javascript">
     $(window).load(function () {
