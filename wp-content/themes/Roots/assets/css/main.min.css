@@ -7196,32 +7196,52 @@ body {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   background-color: #5E3448;
-  color: #C3C6C9;
-  font-family: 'utilityboldcondensed';
 }
 /* line 77, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+.navbar-default .navbar-brand {
+  color: #C3C6C9;
+}
+/* line 79, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+.navbar-default .navbar-brand {
+  -webkit-transition: All 0.7s ease;
+  -moz-transition: All 0.7s ease;
+  -o-transition: All 0.7s ease;
+  -ms-transition: All 0.7s ease;
+  transition: All 0.7s ease;
+  background-color: #FB5A48;
+}
+/* line 90, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+.navbar-default .navbar-brand a:hover {
+  background-color: #5E3448
+color:#C3C6C9;
+}
+/* line 94, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+.navbar-default .navbar-brand:hover {
+  color: #C3C6C9;
+}
+/* line 98, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 button.navbar-toggle collapsed {
   color: #17693C;
 }
-/* line 78, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 99, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .icon-bar {
   background-color: #17693C;
 }
-/* line 81, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 102, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .navbar a {
   color: #C3C6C9;
 }
-/* line 82, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 103, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .navbar-default .navbar-nav > li > a {
   color: #C3C6C9;
 }
-/* line 85, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 106, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #C3C6C9;
 }
-/* line 88, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 109, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .navbar {
   margin-bottom: 0px;
 }
@@ -7229,55 +7249,55 @@ button.navbar-toggle collapsed {
    Content
    ========================================================================== */
 /*slider revolution caption*/
-/* line 108, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 129, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #revo {
   border: none;
   margin: 0;
   padding: 0;
 }
-/* line 109, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 130, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .tp-caption.very_large_text {
   font-family: lato;
 }
-/* line 110, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 131, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .tp-caption.small_text1 {
   color: #F02B1D;
   font-family: lato;
 }
 /* buttons */
-/* line 116, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 137, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .btn {
   background-color: #F55C45;
   display: block;
   width: 100%;
   outline: none;
 }
-/* line 120, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 141, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #accordion2 {
   padding-top: 0px;
 }
-/* line 121, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 142, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .accordion {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/* line 123, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 144, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .accordion-toggle {
   color: black;
 }
-/* line 124, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 145, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .btn {
   background-color: #1B7AE0;
 }
-/* line 125, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 146, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .accordion-inner {
   background-image: url("../img/ricepaper.png");
 }
-/* line 126, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 147, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .accordion-heading {
   padding-top: 0px;
 }
-/* line 128, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 149, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #uno1 {
   background-color: #265191;
   color: grey;
@@ -7292,12 +7312,12 @@ button.navbar-toggle collapsed {
   -ms-transition: All 0.5s ease;
   transition: All 0.5s ease;
 }
-/* line 138, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 159, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #uno1:hover {
   background-color: #13294A;
   color: white;
 }
-/* line 141, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 162, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #uno {
   background-color: #20457C;
   color: grey;
@@ -7311,12 +7331,12 @@ button.navbar-toggle collapsed {
   -ms-transition: All 0.5s ease;
   transition: All 0.5s ease;
 }
-/* line 151, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 172, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #uno:hover {
   background-color: #13294A;
   color: white;
 }
-/* line 153, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 174, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #uno3 {
   background-color: #173159;
   color: grey;
@@ -7331,44 +7351,44 @@ button.navbar-toggle collapsed {
   -ms-transition: All 0.5s ease;
   transition: All 0.5s ease;
 }
-/* line 163, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 184, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #uno3:hover {
   background-color: #13294A;
   color: white;
 }
 /* end buttons */
 /*********** begin resume ****************/
-/* line 180, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 201, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #resname h1 {
   font-family: Georgia;
   font-size: 58px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-/* line 187, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 208, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #resname h2 {
   font-family: Georgia;
   font-size: 152%;
   font-style: italic;
 }
-/* line 193, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 214, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #pdf {
   font-family: Georgia;
 }
-/* line 199, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 220, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #contact-info h3 a {
   font-family: Georgia;
 }
-/* line 200, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 221, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #contact-info h3 {
   font-family: Georgia;
 }
-/* line 202, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 223, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne a#pdf:hover {
   text-decoration: none;
   background-color: #5E3448;
 }
-/* line 207, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 228, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne a#pdf {
   display: block;
   float: left;
@@ -7378,7 +7398,7 @@ button.navbar-toggle collapsed {
   margin-bottom: 6px;
   text-decoration: none;
 }
-/* line 217, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 238, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne a#pdf {
   color: #C3C6C9;
   -webkit-transition: All 0.7s ease;
@@ -7388,25 +7408,25 @@ button.navbar-toggle collapsed {
   transition: All 0.7s ease;
   background-color: #FB5A48;
 }
-/* line 226, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 247, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne a #pdf:hover {
   background-color: #5E3448;
 }
-/* line 230, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 251, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne {
   background-image: url("../img/ricepaper.png");
   font-family: Georgia;
 }
-/* line 231, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 252, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .resume {
   border-bottom: 1px solid #ccc;
 }
-/* line 232, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 253, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne h3,
 #collapseOne h4 {
   font-size: 122%;
 }
-/* line 233, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 254, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne h1,
 #collapseOne h2,
 #collapseOne h3,
@@ -7414,100 +7434,100 @@ button.navbar-toggle collapsed {
   color: #333;
   font-family: Georgia;
 }
-/* line 234, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 255, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne p {
   font-size: 100%;
   line-height: 18px;
   padding-right: 3em;
 }
-/* line 235, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 256, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne a {
   color: black;
 }
-/* line 236, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 257, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne a:hover {
   text-decoration: none;
 }
-/* line 237, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 258, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne a:hover {
   text-decoration: underline;
 }
-/* line 238, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 259, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne strong {
   font-weight: bold;
 }
-/* line 239, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 260, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne li {
   line-height: 24px;
   border-bottom: 1px solid #ccc;
 }
-/* line 240, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 261, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #collapseOne p.enlarge {
   font-size: 144%;
   padding-right: 6.5em;
   line-height: 24px;
 }
-/* line 241, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 262, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 p.enlarge span {
   color: #000000;
 }
-/* line 242, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 263, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .contact-info {
   margin-top: 7px;
 }
-/* line 243, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 264, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #email {
   margin-left: 5px;
 }
-/* line 245, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 266, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 p.enlarge {
   font-size: 144%;
   padding-right: 6.5em;
   line-height: 24px;
   margin-top: 20px;
 }
-/* line 246, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 267, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #bd,
 #ft {
   margin-bottom: 2em;
   border-bottom: 1px solid #ccc;
 }
-/* line 247, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 268, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #bd h2 {
   font-style: italic;
 }
-/* line 248, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 269, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #skills {
   margin-bottom: 2em;
   border-bottom: 1px solid #ccc;
 }
-/* line 250, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 271, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .job {
   position: relative;
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid #ccc;
 }
-/* line 251, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 272, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .job h4 {
   position: absolute;
   top: 0.35em;
   right: 0;
 }
-/* line 252, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 273, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .job p {
   margin: 0.75em 0 3em 0;
 }
-/* line 253, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 274, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .job h2 {
   font-size: 152%;
 }
-/* line 254, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 275, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 ul.talent {
   margin: 0;
   padding: 0;
 }
-/* line 255, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 276, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #education {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
@@ -7515,18 +7535,18 @@ ul.talent {
 }
 /********** end resume *************/
 /********** Services */
-/* line 286, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 307, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .services {
   background: #7fbbda;
   padding: 50px 0;
   color: #ffffff;
   width: 100%;
 }
-/* line 293, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 314, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .service-item {
   margin-bottom: 15px;
 }
-/* line 297, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 318, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 i.service-icon {
   border: 2px solid #ffffff;
   border-radius: 50%;
@@ -7538,7 +7558,7 @@ i.service-icon {
   vertical-align: middle;
   text-align: center;
 }
-/* line 308, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 329, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .github {
   color: #ffffff;
   /*Transition*/
@@ -7548,11 +7568,11 @@ i.service-icon {
   -ms-transition: All 0.5s ease;
   transition: All 0.5s ease;
 }
-/* line 316, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 337, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .github hover {
   color: #5E3448;
 }
-/* line 319, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 340, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .linkedin {
   color: #ffffff;
   /*Transition*/
@@ -7562,11 +7582,11 @@ i.service-icon {
   -ms-transition: All 0.5s ease;
   transition: All 0.5s ease;
 }
-/* line 327, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 348, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .linkedin hover {
   color: #5E3448;
 }
-/* line 329, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 350, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .instagram {
   color: #ffffff;
   /*Transition*/
@@ -7576,11 +7596,11 @@ i.service-icon {
   -ms-transition: All 0.5s ease;
   transition: All 0.5s ease;
 }
-/* line 336, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 357, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .instagram hover {
   color: #5E3448;
 }
-/* line 338, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 359, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .painting {
   color: #ffffff;
   /*Transition*/
@@ -7590,29 +7610,29 @@ i.service-icon {
   -ms-transition: All 0.5s ease;
   transition: All 0.5s ease;
 }
-/* line 345, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 366, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .painting hover {
   color: #5E3448;
 }
-/* line 360, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 381, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 footer {
   display: none;
 }
-/* line 361, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 382, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 embed,
 object,
 iframe {
   max-width: 100%;
 }
 /* contact form */
-/* line 367, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 388, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body input[type=text].wpcf7-not-valid,
 body input[type=email].wpcf7-not-valid,
 body input[type=tel].wpcf7-not-valid,
 body textarea.wpcf7-not-valid {
   border: 1px solid #ec3c06;
 }
-/* line 371, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 392, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body span.wpcf7-not-valid-tip {
   display: block;
   color: #ec3c06;
@@ -7625,13 +7645,13 @@ body span.wpcf7-not-valid-tip {
   background: none;
   font-size: 15px;
 }
-/* line 384, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 405, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body div.wpcf7-validation-errors {
   background: #ffe2e2;
   border: 1px solid #ff8a8a;
   color: #ec3c06;
 }
-/* line 390, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 411, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body div.wpcf7-response-output {
   margin: 10px 0;
   padding: 20px;
@@ -7640,13 +7660,13 @@ body div.wpcf7-response-output {
   -moz-box-sizing: border-box;
   border-radius: 5px;
 }
-/* line 399, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 420, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body .wpcf7-mail-sent-ng {
   background: #fff2e2;
   border: 1px solid #ffbc8a;
   color: #e17731;
 }
-/* line 405, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 426, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body .wpcf7-mail-sent-ok {
   background: #e8ffe2;
   border: 1px solid #6fdf51;
@@ -7654,11 +7674,11 @@ body .wpcf7-mail-sent-ok {
 }
 /* Contact 7 Forms
 --------------------------------------------- */
-/* line 414, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 435, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 form.wpcf7-form {
   text-align: center;
 }
-/* line 419, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 440, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 input#formname,
 #emailform,
 #subject,
@@ -7667,17 +7687,17 @@ input#formname,
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/* line 425, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 446, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 input#formname {
   margin-top: 20px;
 }
-/* line 429, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 450, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 input.wpcf7-form-control.wpcf7-submit {
   margin-bottom: 20px;
   background-color: #00529b;
   width: 50%;
 }
-/* line 435, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 456, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 input.wpcf7-form-control.wpcf7-submit input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
@@ -7685,14 +7705,14 @@ input:hover[type="submit"],
 .entry-content .button:hover {
   background-color: #f15123;
 }
-/* line 439, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 460, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body input[type=text].wpcf7-not-valid,
 body input[type=email].wpcf7-not-valid,
 body input[type=tel].wpcf7-not-valid,
 body textarea.wpcf7-not-valid {
   border: 1px solid #ec3c06;
 }
-/* line 443, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 464, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body span.wpcf7-not-valid-tip {
   display: block;
   color: #ec3c06;
@@ -7706,13 +7726,13 @@ body span.wpcf7-not-valid-tip {
   font-size: 15px;
   margin: 0 auto;
 }
-/* line 457, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 478, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body div.wpcf7-validation-errors {
   background: #ffe2e2;
   border: 1px solid #ff8a8a;
   color: #ec3c06;
 }
-/* line 464, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 485, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body div.wpcf7-response-output {
   margin: 10px 0;
   padding: 20px;
@@ -7721,19 +7741,19 @@ body div.wpcf7-response-output {
   -moz-box-sizing: border-box;
   border-radius: 5px;
 }
-/* line 473, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 494, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body .wpcf7-mail-sent-ng {
   background: #fff2e2;
   border: 1px solid #ffbc8a;
   color: #e17731;
 }
-/* line 479, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 500, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body .wpcf7-mail-sent-ok {
   background: #e8ffe2;
   border: 1px solid #6fdf51;
   color: #1ea524;
 }
-/* line 485, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 506, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 textarea,
 input[type=text],
 input[type=email],
@@ -7746,12 +7766,12 @@ input[type=password] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-/* line 493, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 514, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .cform {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 497, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 518, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 input.wpcf7-form-control.wpcf7-submit {
   color: #C3C6C9;
   -webkit-transition: All 0.7s ease;
@@ -7762,7 +7782,7 @@ input.wpcf7-form-control.wpcf7-submit {
   background-color: #FB5A48;
   border: none;
 }
-/* line 507, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 528, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 input.wpcf7-form-control.wpcf7-submit:hover {
   background-color: #5E3448;
 }
@@ -7778,14 +7798,14 @@ input.wpcf7-form-control.wpcf7-submit:hover {
  */
 /* Browser Resets
 *********************************/
-/* line 529, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 550, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
 .flexslider a:focus {
   outline: none;
 }
-/* line 533, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 554, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -7805,28 +7825,28 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 }
 /* FlexSlider Necessary Styles
 *********************************/
-/* line 553, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 574, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider {
   margin: 0;
   padding: 0;
 }
-/* line 554, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 575, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-/* line 555, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 576, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider .slides img {
   width: 100%;
   display: block;
 }
-/* line 556, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 577, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-pauseplay span {
   text-transform: capitalize;
 }
 /* Clearfix for the .slides element */
-/* line 559, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 580, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .slides:after {
   content: "\0020";
   display: block;
@@ -7835,29 +7855,29 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   line-height: 0;
   height: 0;
 }
-/* line 560, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 581, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 html[xmlns] .slides {
   display: block;
 }
-/* line 561, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 582, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 * html .slides {
   height: 1%;
 }
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-/* line 566, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 587, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .no-js .slides > li:first-child {
   display: block;
 }
 /* FlexSlider Default Theme
 *********************************/
-/* line 570, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 591, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider {
   margin: 0 0 60px;
   zoom: 1;
 }
-/* line 574, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 595, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
@@ -7865,19 +7885,19 @@ html[xmlns] .slides {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
-/* line 575, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 596, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .loading .flex-viewport {
   max-height: 300px;
 }
-/* line 576, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 597, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider .slides {
   zoom: 1;
 }
-/* line 577, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 598, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .carousel li {
   margin-right: 5px;
 }
-/* line 578, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 599, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-caption {
   color: black;
   position: relative;
@@ -7898,11 +7918,11 @@ html[xmlns] .slides {
   max-width: 100%;
 }
 /* Direction Nav */
-/* line 603, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 624, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-direction-nav {
   *height: 0;
 }
-/* line 604, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 625, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-direction-nav a {
   display: block;
   width: 40px;
@@ -7920,49 +7940,49 @@ html[xmlns] .slides {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 605, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 626, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-direction-nav .flex-prev {
   left: -50px;
 }
-/* line 606, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 627, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
-/* line 607, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 628, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider:hover .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
-/* line 608, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 629, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider:hover .flex-next {
   opacity: 0.7;
   right: 10px;
 }
-/* line 609, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 630, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flexslider:hover .flex-next:hover,
 .flexslider:hover .flex-prev:hover {
   opacity: 1;
 }
-/* line 610, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 631, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-direction-nav .flex-disabled {
   opacity: 0!important;
   filter: alpha(opacity=0);
   cursor: default;
 }
-/* line 611, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 632, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
   font-size: 30px;
   display: inline-block;
   content: '\f001';
 }
-/* line 612, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 633, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
 }
 /* Pause/Play */
-/* line 615, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 636, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -7976,37 +7996,37 @@ html[xmlns] .slides {
   cursor: pointer;
   color: #000;
 }
-/* line 616, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 637, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
   display: inline-block;
   content: '\f004';
 }
-/* line 617, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 638, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-pauseplay a:hover {
   opacity: 1;
 }
-/* line 618, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 639, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-pauseplay a.flex-play:before {
   content: '\f003';
 }
 /* Control Nav */
-/* line 621, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 642, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-nav {
   width: 100%;
   position: absolute;
   bottom: -40px;
   text-align: center;
 }
-/* line 622, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 643, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
-/* line 623, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 644, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -8024,52 +8044,52 @@ html[xmlns] .slides {
   -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
-/* line 624, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 645, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 625, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 646, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
-/* line 627, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 648, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden;
 }
-/* line 628, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 649, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0;
 }
-/* line 629, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 650, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-thumbs img {
   width: 100%;
   display: block;
   opacity: .7;
   cursor: pointer;
 }
-/* line 630, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 651, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-thumbs img:hover {
   opacity: 1;
 }
-/* line 631, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 652, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
 }
 @media screen and (max-width: 860px) {
-  /* line 634, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+  /* line 655, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
   }
-  /* line 635, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+  /* line 656, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
@@ -8078,7 +8098,7 @@ html[xmlns] .slides {
 /* ==========================================================================
    Primary Content
    ========================================================================== */
-/* line 649, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 670, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #blurred {
   background-image: url("../img/121610-33.jpg");
   background-attachment: fixed;
@@ -8088,12 +8108,12 @@ html[xmlns] .slides {
   width: 100%;
   position: relative;
 }
-/* line 656, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 677, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #blurred .section {
   max-width: 100%;
   padding: none;
 }
-/* line 658, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 679, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 *,
 *:after,
 *::before {
@@ -8101,7 +8121,7 @@ html[xmlns] .slides {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 665, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 686, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #zig::before,
 #zig:after {
   position: absolute;
@@ -8109,7 +8129,7 @@ html[xmlns] .slides {
   pointer-events: none;
 }
 /* Zig Zag (3d up and simple down) */
-/* line 673, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 694, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .ss-style-zigzag::before,
 .ss-style-zigzag::after {
   right: 0;
@@ -8119,25 +8139,25 @@ html[xmlns] .slides {
   height: 90px;
   background-size: 50px 100%;
 }
-/* line 683, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 704, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .ss-style-zigzag::before {
   top: -90px;
   background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #3498db));
   background-image: linear-gradient(315deg, #3093d5 25%, transparent 25%), linear-gradient(45deg, #3498db 25%, transparent 25%);
   background-position: 50%;
 }
-/* line 692, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 713, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .ss-style-zigzag::after {
   top: 100%;
   background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #ecdfbd), color-stop(0.25, #2980b9));
   background-image: linear-gradient(135deg, #ecdfbd 25%, transparent 25%), linear-gradient(225deg, #ecdfbd 25%, transparent 25%);
   background-position: 50%;
 }
-/* line 700, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 721, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #zig::before {
   display: none;
 }
-/* line 704, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 725, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .main {
   max-height: 100%;
   background-image: url("../img/wavegrid.png");
@@ -8146,11 +8166,11 @@ html[xmlns] .slides {
   margin: 0 auto;
 }
 /* Gallery Shortcode */
-/* line 709, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 730, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .text p .box {
   margin: 15px;
 }
-/* line 710, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 731, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .box .back {
   position: absolute;
   z-index: 1;
@@ -8163,7 +8183,7 @@ html[xmlns] .slides {
   border-radius: 5px;
   border: none;
 }
-/* line 720, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 741, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #box-outer {
   background-image: url("../img/121610-33.jpg");
   z-index: 0;
@@ -8181,45 +8201,45 @@ html[xmlns] .slides {
   width: 100%;
   position: relative;
 }
-/* line 735, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 756, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .box-outer .text {
   position: relative;
   z-index: 2;
   margin: 15px;
 }
-/* line 740, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 761, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .box .page-header {
   margin: 0;
   padding: 0;
 }
-/* line 741, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 762, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .box .page-header h1 {
   text-align: center;
   color: #B4E825;
 }
-/* line 742, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 763, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 div.text.outer {
   margin: 0;
   padding: 0px;
   height: 100%;
 }
-/* line 743, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 764, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .text {
   z-ndex: 200;
   margin: 15px;
   color: white;
 }
-/* line 745, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 766, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 body.browser-ie8 .box .back {
   filter: alpha(opacity=75);
 }
-/* line 748, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 769, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .circles1 {
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
 }
-/* line 749, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 770, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .circle {
   width: 248px;
   height: 248px;
@@ -8231,7 +8251,7 @@ body.browser-ie8 .box .back {
   background-image: url("../img/ricepaper.png");
   margin: 0 auto;
 }
-/* line 763, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 784, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .circle p {
   width: 75%;
   height: 75%;
@@ -8242,24 +8262,24 @@ margin-right:55px;}
 .circ{width: 50%;
     margin: 0 auto;}*/
 /* #mid{background-image: url("../img/ricepaper.png");}*/
-/* line 776, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 797, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #mid {
   background-color: #ECDFBD;
   width: 100%;
   padding-top: 50px;
 }
-/* line 778, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 799, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #circles1 {
   padding-top: 50px;
   height: 100%;
 }
-/* line 780, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 801, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #green {
   padding-top: 100px;
   padding-bottom: 100px;
   max-height: 100%;
 }
-/* line 783, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 804, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #premap {
   background-image: url("../img/SemidomesticDotCom_Blue-White-Chevron.png");
   background-repeat: repeat-xy;
@@ -8269,7 +8289,7 @@ margin-right:55px;}
   width: 100%;
   position: relative;
 }
-/* line 793, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 814, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .prem {
   text-align: center;
   padding-top: 150px;
@@ -8278,12 +8298,12 @@ margin-right:55px;}
   border: 5px;
   border-color: white;
 }
-/* line 794, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 815, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #prem1 {
   border: 5px;
   border-color: white;
 }
-/* line 798, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 819, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #almostfooter {
   background-image: url("../img/urban_new_york_city_bokeh_night_streetscape_1280x800_48979.jpg");
   background-attachment: fixed;
@@ -8293,32 +8313,32 @@ margin-right:55px;}
   width: 100%;
   position: relative;
 }
-/* line 807, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 828, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #almost {
   width: 100%;
 }
-/* line 808, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 829, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 /*div seperator*/
-/* line 819, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 840, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #sub {
   background-color: #ECDFBD;
 }
-/* line 820, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 841, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 svg#bigTriangleColor {
   pointer-events: none;
 }
-/* line 823, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 844, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #bigTriangleColor path {
   fill: #0B182B;
   stroke: #0B182B;
   stroke-width: 1;
 }
-/* line 829, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 850, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #sub2 {
   background-image: url("../img/SemidomesticDotCom_Blue-White-Chevron.png");
   background-repeat: repeat-xy;
@@ -8328,15 +8348,15 @@ svg#bigTriangleColor {
   width: 100%;
   position: relative;
 }
-/* line 837, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 858, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 svg#bigTriangleColor {
   pointer-events: none;
 }
-/* line 840, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 861, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 svg#bigTriangleColor2 {
   pointer-events: none;
 }
-/* line 844, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 865, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #bigTriangleColor2 path {
   fill: #7fbbda;
   stroke: #7fbbda;
@@ -8344,7 +8364,7 @@ svg#bigTriangleColor2 {
 }
 /* end div seperator*/
 /* Map */
-/* line 855, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 876, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 #map {
   height: 500px;
 }
@@ -8361,20 +8381,20 @@ svg#bigTriangleColor2 {
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
-/* line 893, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 914, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .aligncenter {
   display: block;
   margin: 0 auto;
 }
-/* line 894, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 915, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .alignleft {
   float: left;
 }
-/* line 895, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 916, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 .alignright {
   float: right;
 }
-/* line 896, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
+/* line 917, /Applications/MAMP/htdocs/wordpress1/wp-content/themes/Roots/assets/less/app.less */
 figure.alignnone {
   margin-left: 0;
   margin-right: 0;
