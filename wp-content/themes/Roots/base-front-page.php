@@ -431,7 +431,7 @@
           <div class="col-md-2 text-center">
             <div class="service-item">
               <a class="instagram" href="http://wegrams.com/knish72"><i class="service-icon fa fa-instagram"></i></a>
-              <h4>Problem Solving</h4>
+              <h4>Instagram</h4>
               <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
             </div>
           </div>
