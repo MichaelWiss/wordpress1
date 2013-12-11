@@ -62,7 +62,7 @@
         </div>
 
         <div class="col-md-3 col-xs-12" id="contact-info">
-              <h3><a id="pdf" href="#">Download PDF</a></h3>
+              <h3><a id="pdf" href="http://localhost/wordpress1/media/Michael-Wiss_2013.pdf">Download PDF</a></h3>
               <h3><a id="email" href="mailto:michael.wiss@gmail.com">michael.wiss@gmail.com</a></h3>
 						  <h3>(917)-627-4004</h3>
 				</div>
@@ -192,7 +192,7 @@
 
 </div>
 
-<!--- end resume---->
+<!--- end resume-->
 
 </div>
 </div>
