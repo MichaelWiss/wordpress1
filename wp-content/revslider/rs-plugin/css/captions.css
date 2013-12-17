@@ -194,14 +194,16 @@ font-size: 134px;
 
 					}
 .tp-caption.very_verybig_white{
-  height: 200px;
-  width: 200px;
+  height: 50%;
+  width: 50%;
   display: table-cell;
   line-height:200px;
   border-radius: 50%;
   background:#000;
   color: #fff9d6;
   text-align: center;
+
+  font-size:16em;
   
   font-size: 30px; 
 }
