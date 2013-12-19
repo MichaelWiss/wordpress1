@@ -228,10 +228,10 @@
     </div>
     <div id="collapseThree" class="accordion-body collapse">
       <div class="accordion-inner">
-       nnnnnnnnnn
+      
+       
 
-
-       nnnnnnnnnnnnnnnnnnn
+       <div id="map"></div>
 
 
 
@@ -560,6 +560,123 @@ $(document).ready(function () {
 			});
 		});
 		</script>
+
+
+
+    <script>
+
+           
+           
+           $('#map').mapSvg({source:'assets/maps/world_with_states.svg',    // Path to SVG map
+                
+                                 
+                pan: true,
+                zoom:true,
+
+             
+                colors:{
+                background:"transparent",
+                stroke: "#AEB1B8"},
+
+
+                regions :       {
+                                  
+ 'USA': {tooltip: '<strong>USA</strong>: Average Income<br>Top Quintile: &#36;91,705<br>Medium Quintile: &#36;36,000<br>Bottom Quintile: &#36;19,178'},
+
+'Mexico': {attr: {fill: '#F2852C', href: 'http://google.com', 'cursor': 'help'}},
+
+'Ireland': {attr: {fill: '#0CF23A', }},
+'United_Kingdom': {attr:{fill:'#630723', }},
+'France': {attr: {fill: '#DB584F',  }},
+'Germany': {attr: {fill: '#EDEA4A', }},
+'Italy': {attr: {fill: '#904AED', }},
+
+
+'Taiwan': {attr: {fill: '#053B15', href: 'http://en.wikipedia.org/wiki/Taipei', 'cursor': 'help'}},
+                                  'Yemen': {tooltip: 'You are above Yemen!'},
+                                  
+                                  'Kazakhstan': {tooltip: '<img src="assets/flags/kazakhstan.gif" align="left"/> &nbsp;<strong>Kazakhstan</strong>  - the ninth largest country in the world.'},
+                                  'Mongolia': {tooltip: 
+
+'<iframe width="200" height="150" src="http://www.youtube.com/embed/RVlpZ35d7tc"  frameborder="0",autoplay:"0", allowfullscreen, ></iframe>'
+
+
+
+
+
+},
+                                  'China': {selected: false, tooltip: '<img src="assets/flags/china.jpg" align="left"/> &nbsp;<strong>China</strong> is the world\'s most-populous country.'},
+                                  'Norway': {tooltip: '<img src="assets/flags/norway.png" align="left"/> &nbsp;<strong>Norway</strong>'},
+                                  'Brazil': {tooltip: '<img src="assets/flags/brazil.gif" align="left"/> &nbsp;<strong>Brazil</strong> is the largest country in South America.'}
+                                },
+                marks:          [
+                                    
+
+                                    { c: [45.09206533828506, -93.0099105834961],
+                                    attrs: {'src': 'assets/markers/pin1_orange.png'},
+                                      tooltip: 'I was raised in <strong>White Bear Lake, MN</strong><br /><img src="http://farm6.staticflickr.com/5102/5854458755_d2d689de67.jpg" width="320" height="256" alt="Beautiful Sunrise"></a>',
+                                    },
+
+                   { c: [40.65, -73.95],
+                                      attrs: {'src': 'assets/markers/pin1_blue.png'},
+                                        tooltip: 'I currently reside in  <strong>Brooklyn</strong><br /><img src="http://farm4.staticflickr.com/3202/2818368602_86923e77c6_n.jpg" width="320" height="256" alt="Sunset Park, Brooklyn">',
+                                      },
+  
+                    { c: [25.091075, 121.559834],
+                                        attrs: {'src': 'assets/markers/pin1_red.png'},
+                                          tooltip: 'I was born in   <strong>Taipei, Taiwan</strong><br /><img src="http://farm4.staticflickr.com/3485/3936451631_403f126435_n.jpg" width="320" height="213" alt="Good Morning,Taipei"></a>',
+                                        },  
+
+  
+                    { c: [27.508271413876013, -99.51416015625],
+                                        attrs: {'src': 'assets/markers/pin1_violet.png'},
+                                          tooltip: 'The end of a roadtrip  <strong>Laredo</strong><br /><img src="http://farm3.staticflickr.com/2114/2118758365_50d50d856f.jpg" width="239" height="320" alt="DSCN4967">',
+                                        },
+
+                      { c: [53.344104, -6.267494],
+                                          attrs: {'src': 'assets/markers/pin1_violet.png'},
+                                            tooltip: 'The beginning of a post High School trip in <strong>Dublin</strong><br /><a href="http://www.flickr.com/photos/2cme/6908957463/" title="Dublin, Ireland. by 2c.., on Flickr"><img src="http://farm8.staticflickr.com/7049/6908957463_4532e985e6_n.jpg" width="320" height="213" alt="Dublin, Ireland."></a>',
+                                          },
+
+
+                                    { c: [51.49763,-0.148315],
+                                      attrs: {'src': 'assets/markers/pin1_green.png'},
+                                      tooltip: '<strong>London</strong> Second stop on European trip<br /><a href="http://www.flickr.com/photos/tonybill/7495336866/" title="Somerset House, London by tonybill, on Flickr"><img src="http://farm8.staticflickr.com/7120/7495336866_646096d6a7_n.jpg" width="320" height="213" alt="Somerset House, London"></a>',
+                                    },
+
+                  { c: [48.856614, 2.352222],
+                                      attrs: {'src': 'assets/markers/pin1_yellow.png'},
+                                        tooltip: 'I began hitchhiking in  <strong>Paris</strong><br /><img src="http://farm8.staticflickr.com/7222/6886562948_98e3e2b6c6_n.jpg" width="320" height="213" alt="View of Rooftops, Chimneys &amp; Landmarks from the Marais, Paris"></a>',
+                                      },
+  
+                    { c: [52.519171, 13.406091],
+                                        attrs: {'src': 'assets/markers/pin1_black.png'},
+                                          tooltip: 'I explored the artist colonies of <strong>East Berlin</strong><br /><a href="http://www.flickr.com/photos/joao/2243081528/" title="Hallo Tacheles 4 by joaobambu, on Flickr"><img src="http://farm3.staticflickr.com/2312/2243081528_12f22e4e2c_m.jpg" width="195" height="240" alt="Hallo Tacheles 4"></a>',
+                                        },
+    
+                      { c: [44.49419, 11.346518],
+                                          attrs: {'src': 'assets/markers/pin1_grey.png'},
+                                            tooltip: 'After hitchhiking  through the Alps I came to <strong>Bologna</strong><br /><a href="http://www.flickr.com/photos/59436014@N00/2043001625/" title="Bologna by marikuz1975, on Flickr"><img src="http://farm3.staticflickr.com/2388/2043001625_786d46d798_n.jpg" width="320" height="213" alt="Bologna"></a>',
+                                          },
+
+                        { c: [43.768732, 11.256901],
+                                            attrs: {'src': 'assets/markers/pin1_red.png'},
+                                              tooltip: ' <strong>Florence</strong> was my third hichhiking stop. <br /><a href="http://www.flickr.com/photos/rogima/3165122786/" title="Firenze by rogima, on Flickr"><img src="http://farm2.staticflickr.com/1029/3165122786_9bff9af092_n.jpg" width="320" height="190" alt="Firenze"></a>',
+                                            },
+        
+                          { c: [41.89052, 12.494249],
+                                              attrs: {'src': 'assets/markers/pin1_blue.png'},
+                                                tooltip: ' In <strong>Rome</strong> I sought the Pope. <br /><a href="http://www.flickr.com/photos/craddison/5219083981/" title="Vatican City Rome by CRAddison, on Flickr"><img src="http://farm5.staticflickr.com/4128/5219083981_4471a828bf.jpg" width="320" height="190" alt="Vatican City Rome"></a>',
+                                              },
+                                 ],
+          
+                tooltipsMode:    'combined'
+
+            });
+
+
+
+</script>
 
 
 
