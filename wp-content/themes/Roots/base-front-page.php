@@ -82,7 +82,7 @@
 						</div>
 						<div class="col-md-9 col-sm-9 col-xs-12">
 							<p class="enlarge">
-								Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change. 
+								Educated as a fine artist I am now pursuing a career in web development.  I believe that we are still in the nascent stage of our ability to express ourselves on the web and I am determined to be involved in it's development.    
 							</p>
 						</div>
 					</div>
@@ -98,18 +98,18 @@
 						<div class="">
 
 								<div class="col-md-3 col-sm-3 col-xs-12">
-									<h2>Web Design</h2>
-									<p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
+									<h2>Front End Development</h2>
+									<p>I have a solid foundation using HTML5 and CSS3 to build static and wordpress sites.	</p>
 								</div>
 
 								<div class="col-md-3-md col-sm-3 col-xs-12">
-									<h2>Interface Design</h2>
-									<p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
+									<h2>Responsive Web Design</h2>
+									<p>I understand media queries and have a firm understanding of the latest grid frameworks .	 </p>
 								</div>
 
 								<div class="col-md-3-offset-1 col-sm-3 col-xs-12">
-									<h2>Project Direction</h2>
-									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
+									<h2>Ruby on Rails student</h2>
+									<p>Most of my free time is spent devoted to learning Ruby on Rails.</p>
 								</div>
 						</div>
 					</div>
@@ -140,7 +140,7 @@
 							<ul class="talent">
 								<li>OS X</li>
 								<li>Ruby on Rails</li>
-								<li class="last">Cli</li>
+								<li class="last">Command Line</li>
 							</ul>
 						</div>
 					</div>
@@ -162,7 +162,7 @@
 								<h2>WhyHunger</h2>
 								<h3>Web Manager</h3>
 								<h4>2012</h4>
-								<p>Intrinsicly enable optimal core competencies through corporate relationships. Phosfluorescently implement worldwide vortals and client-focused imperatives. Conveniently initiate virtual paradigms and top-line convergence. </p>
+								<p>At WhyHunger I worked with all of the programs in the organization to support a variety of online properties.  This included managing service requests, updates, analytics tracking and reporting and construction of new pages and features and independent wordpress sites.  I also collaborated with outside vendors to ensure timely delivery and installation of products.  I acted as the one and only web tech at WhyHunger and as consultant to the organization regarding web based communication goals. </p>
 							</div>
 							</div>
 							</div>
@@ -173,7 +173,7 @@
 								<h2>Freelance</h2>
 								<h3>Freelancer</h3>
 								<h4>2011</h4>
-								<p>Progressively reconceptualize multifunctional "outside the box" thinking through inexpensive methods of empowerment. Compellingly morph extensive niche markets with mission-critical ideas. Phosfluorescently deliver bricks-and-clicks strategic theme areas rather than scalable benefits. </p>
+								<p>I am skilled in HTML5, CSS3, Jquery, Javascript, Responsive web development(mobile) and Wordpress.  I have basic understanding of the Symfony and Ruby on Rails MVC frameworks. </p>
 							</div>
               </div>
               </div>
@@ -490,35 +490,38 @@
 <?php get_template_part('templates/footer'); ?>
 
   <div id="almostfooter"  data-stellar-background-ratio="0.2" class:"container-fluid">
-  
+ 
+
+
+
 
    <div class="row">
           <div class="col-md-2 col-md-offset-2 text-center">
-            <div class="service-item">
-              <a class="github" href="https://github.com/MichaelWiss"><i class="service-icon fa fa-github"></i></a>
-              <h4>Github</h4>
-              <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
+            <div class="service-item1">
+              <a class="beer" href="#"><i class="service-icon1 beer fa fa-beer"></i></a>
+              <h4>Spirits</h4>
+              <p>I enjoy them occasionally having recently discovered the joys of whiskey!</p>
             </div>
           </div>
           <div class="col-md-2 text-center">
-            <div class="service-item">
-              <a class="instagram" href="http://wegrams.com/knish72"><i class="service-icon fa fa-instagram"></i></a>
-              <h4>Instagram</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
+            <div class="service-item1">
+              <a class="cutlery" href="#"><i class="service-icon1 fa fa-cutlery"></i></a>
+              <h4>Eating</h4>
+              <p>I am an exotic eater.  If I have never eaten it before the more I'd like to.</p>
             </div>
           </div>
           <div class="col-md-2 text-center">
-            <div class="service-item">
-              <a class="linkedin" href="http://www.linkedin.com/pub/michael-wiss/3b/55a/7a0"><i class="service-icon fa fa-linkedin-square"></i></a>
-              <h4>Linkedin</h4>
-              <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
+            <div class="service-item1">
+              <a class="headphones" href="#"><i class="service-icon1 glyphicon glyphicon-headphones"></i></a>
+              <h4>Music</h4>
+              <p>Always listening to some jams.</p>
             </div>
           </div>
           <div class="col-md-2 text-center">
-            <div class="service-item">
-              <a class="painting" href="http://michaelrwiss.com/"><i class="service-icon fa fa-pencil"></i></a>
-              <h4>Pencil Sharpening</h4>
-              <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+            <div class="service-item1">
+              <a class="globe" href="#"><i class="service-icon1 glyphicon glyphicon-globe"></i></a>
+              <h4>Travel</h4>
+              <p>I get the wanderlust from my father!</p>
             </div>
           </div>
           </div>
