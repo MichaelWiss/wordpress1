@@ -231,7 +231,7 @@
       
        
 
-       <div id="map"></div>
+       <div id="map1"></div>
 
 
 
@@ -567,7 +567,7 @@ $(document).ready(function () {
 
            
            
-           $('#map').mapSvg({source:'assets/maps/world_with_states.svg',    // Path to SVG map
+           $('#map1').mapSvg({source:'assets/maps/world_with_states.svg',    // Path to SVG map
                 
                                  
                 pan: true,
@@ -669,7 +669,7 @@ $(document).ready(function () {
                                                 tooltip: ' In <strong>Rome</strong> I sought the Pope. <br /><a href="http://www.flickr.com/photos/craddison/5219083981/" title="Vatican City Rome by CRAddison, on Flickr"><img src="http://farm5.staticflickr.com/4128/5219083981_4471a828bf.jpg" width="320" height="190" alt="Vatican City Rome"></a>',
                                               },
                                  ],
-          
+
                 tooltipsMode:    'combined'
 
             });
