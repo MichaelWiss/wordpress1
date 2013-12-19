@@ -487,10 +487,10 @@
 
 
 
-
+<?php get_template_part('templates/footer'); ?>
 
   <div id="almostfooter"  data-stellar-background-ratio="0.2" class:"container-fluid">
-  <?php get_template_part('templates/footer'); ?>
+  
 
    <div class="row">
           <div class="col-md-2 col-md-offset-2 text-center">

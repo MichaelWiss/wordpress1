@@ -2,8 +2,8 @@
 font-size:100px;
 line-height:1em;
 font-weight:bold;
-font-family:"Lato", sans-serif;
-color:#5174b0;
+font-family:Lato, sans-serif;
+color:rgb(214, 209, 191);
 text-decoration:none;
 background-color:transparent;
 letter-spacing:3px;
@@ -13,32 +13,26 @@ border-color:rgb(255, 249, 214);
 border-style:none;
 }
 
-.tp-caption.excerpt {
-font-size:36px;
-line-height:36px;
-font-weight:700;
-font-family:Arial;
-color:#ffffff;
-text-decoration:none;
-background-color:rgb(0, 0, 0);
-background-color:rgba(0, 0, 0, 1);
+.tp-caption.largeblackbg {
+position:absolute;
+color:#fff;
 text-shadow:none;
-margin:0px;
-letter-spacing:-1.5px;
-padding:1px 4px 0px 4px;
-width:150px;
-white-space:normal !important;
-height:auto;
-border-width:0px;
-border-color:rgb(255, 255, 255);
-border-style:none;
+font-weight:300;
+font-size:50px;
+line-height:70px;
+font-family:"Open Sans";
+background-color:#000;
+padding:0px 20px;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+border-radius:0px;
 }
 
 .tp-caption.medium_bg_asbestos {
 font-size:20px;
 line-height:20px;
 font-weight:800;
-font-family:"Open Sans";
+font-family:"Arial Black", Gadget, sans-serif;
 color:rgb(255, 255, 255);
 text-decoration:none;
 background-color:rgb(127, 140, 141);
