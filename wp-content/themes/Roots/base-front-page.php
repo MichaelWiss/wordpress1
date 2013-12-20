@@ -161,7 +161,7 @@
 							<div class="job">
 								<h2>WhyHunger</h2>
 								<h3>Web Manager</h3>
-								<h4>2012</h4>
+								<h4>2012-2013</h4>
 								<p>At WhyHunger I worked with all of the programs in the organization to support a variety of online properties.  This included managing service requests, updates, analytics tracking and reporting and construction of new pages and features and independent wordpress sites.  I also collaborated with outside vendors to ensure timely delivery and installation of products.  I acted as the one and only web tech at WhyHunger and as consultant to the organization regarding web based communication goals. </p>
 							</div>
 							</div>
@@ -269,7 +269,7 @@
    
            <li>
               <img src="assets/img/dubrovnik.png" alt="slide image" />
-              <div class="container"><p class="flex-caption">Captions and cupcakes. Winning combination.</p></div>
+              <div class="container"><p class="flex-caption">Static gallery site.</p></div>
             </li>
             <li>
               <img src="assets/img/hungerthon.png" alt="slide image" />
