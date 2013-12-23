@@ -1,9 +1,9 @@
  
  <div id="nav">
- <header class="banner navbar navbar-default navbar-static-top " role="banner">
+ <header class="navbar  navbar-fixed-top " role="banner">
   <div class="container">
   
-    <div class="navbar-header">
+    <div class="navbar-header ">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -12,11 +12,11 @@
       </button>
      
       <a class="navbar-brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
-    <span class="stateface stateface-replace stateface-mn"></span>
+    
     </div>
     
 
-    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+    <nav class="collapse navbar-collapse navbar-right " role="navigation">
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
@@ -24,11 +24,7 @@
       ?>
     </nav>
    
-    <script>
-    $(window).load(function(){
-      $("header").sticky({ topSpacing: 0 });
-    });
-  </script>
+  
   <script>
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
