@@ -339,20 +339,20 @@
             <div class="col-xs-12 col-sm-12 col-md-4 ">
             
             <div class="circ">
-              <div class="circle"><p><b> Hello  </b><br>             I am a self taught web developer specializing in html5 and css3</p></div>
+              <div class="circle"><p><b> The Past  </b><br>             I am a self taught web developer specializing in html5 and css3 and Jquery.  I have spent the last year making responsive wordpress sites.</p></div>
             </div>  
             
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 ">
             <div class="circ">
-              <div class="circle"><p><b> Hello  </b><br> I spend my free time learning about Ruby on Rails and Javascript</p></div>
+              <div class="circle"><p><b> The Present  </b><br> I spend my free time learning about Ruby on Rails and Javascript, using Git, Chrome dev tools and Sublime Text.</p></div>
             </div>  
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 ">
             <div class="circ">
-              <div class="circle"><p><b> Hello  </b><br> I like to build </p></div>
+              <div class="circle"><p><b> The Future  </b><br> For this site I used Grunt and Codekit.  The tools I'd like to use next are Angular and SSH deployment. </p></div>
             </div>  </div> 
             </div>
             </div>
