@@ -339,20 +339,20 @@
             <div class="col-xs-12 col-sm-12 col-md-4 ">
             
             <div class="circ">
-              <a href="#"><div class="circle"><p> Hello  <br>             I am a self taught web developer specializing in html5 and css3</p></a></div>
+              <div class="circle"><p><b> Hello  </b><br>             I am a self taught web developer specializing in html5 and css3</p></div>
             </div>  
             
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 ">
             <div class="circ">
-              <a href="#"><div class="circle"><p>I spend my free time learning about Ruby on Rails and Javascript <i class="fa fa-terminal"></p></i></div></a>
+              <div class="circle"><p><b> Hello  </b><br> I spend my free time learning about Ruby on Rails and Javascript</p></div>
             </div>  
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 ">
             <div class="circ">
-              <a href="#"><div class="circle"><p>I like to build </p></div></a>
+              <div class="circle"><p><b> Hello  </b><br> I like to build </p></div>
             </div>  </div> 
             </div>
             </div>
@@ -425,28 +425,28 @@
             <div class="service-item">
               <a class="github" href="https://github.com/MichaelWiss"><i class="service-icon fa fa-github"></i></a>
               <h4>Github</h4>
-              <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
+              <p>I compulsively push to Github</p>
             </div>
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item">
               <a class="instagram" href="http://wegrams.com/knish72"><i class="service-icon fa fa-instagram"></i></a>
               <h4>Instagram</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
+              <p>Pictures of food and old Chinese people.</p>
             </div>
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item">
               <a class="linkedin" href="http://www.linkedin.com/pub/michael-wiss/3b/55a/7a0"><i class="service-icon fa fa-linkedin-square"></i></a>
               <h4>Linkedin</h4>
-              <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
+              <p>Out of date.</p>
             </div>
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item">
-              <a class="painting" href="http://michaelrwiss.com/"><i class="service-icon fa fa-pencil"></i></a>
+              <a class="painting" href="http://spectacularvernacular.net/"><i class="service-icon fa fa-pencil"></i></a>
               <h4>Pencil Sharpening</h4>
-              <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+              <p>My Fine Art</p>
             </div>
           </div>
         </div>
@@ -500,29 +500,29 @@
             <div class="service-item1">
               <a class="beer" href="#"><i class="service-icon1 beer fa fa-beer"></i></a>
               <h4>Spirits</h4>
-              <p>I enjoy them occasionally having recently discovered the joys of whiskey!</p>
-            </div>
+             <p>I enjoy them occasionally having recently discovered the joys of whiskey!</p>
+           </div>
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item1">
-              <a class="cutlery" href="#"><i class="service-icon1 fa fa-cutlery"></i></a>
+              <a class="cutlery" href="http://eatbook.herokuapp.com/"><i class="service-icon1 fa fa-cutlery"></i></a>
               <h4>Eating</h4>
-              <p>I am an exotic eater.  If I have never eaten it before the more I'd like to.</p>
-            </div>
+          <p>I am an exotic eater.  If I have never eaten it before the more I'd like to.</p>
+           </div>
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item1">
               <a class="headphones" href="#"><i class="service-icon1 glyphicon glyphicon-headphones"></i></a>
               <h4>Music</h4>
-              <p>Always listening to some jams.</p>
-            </div>
+             <p>Always listening to some jams.</p>
+           </div>
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item1">
               <a class="globe" href="#"><i class="service-icon1 glyphicon glyphicon-globe"></i></a>
               <h4>Travel</h4>
-              <p>I get the wanderlust from my father!</p>
-            </div>
+             <p>I get the wanderlust from my father!</p>
+          </div>
           </div>
           </div>
   </div>
