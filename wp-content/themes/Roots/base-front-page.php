@@ -268,36 +268,36 @@
           <ul class="slides">
    
            <li>
-              <img src="assets/img/dubrovnik.png" alt="slide image" />
+              <a href="http://www.dubrovnikcontemporary.com/"><img src="assets/img/dubrovnik.png" alt="slide image" /></a>
               <div class="container"><p class="flex-caption">Static gallery site.</p></div>
             </li>
             <li>
               <img src="assets/img/hungerthon.png" alt="slide image" />
-              <p class="flex-caption">Michael.</p>
+              <p class="flex-caption">Promotional site for charity drive.</p>
             </li>
             <li>
-              <img src="assets/img/imagine.png" alt="slide image" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+              <a href="http://whyhunger.org/imagine"><img src="assets/img/imagine.png" alt="slide image" /></a>
+              <p class="flex-caption">Informative map page created in Symfony framework.</p>
             </li>
             
             <li>
-              <img src="assets/img/linz.png" alt="slide image" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+              <a href="http://www.linzinc.com/"><img src="assets/img/linz.png" alt="slide image" /></a>
+              <p class="flex-caption">Online shop for independent couture designer.</p>
             </li>
 
             <li>
-              <img src="assets/img/wiss.png" alt="slide image" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+              <a href="http://elburromediagroup.com/"><img src="assets/img/wiss.png" alt="slide image" /></a>
+              <p class="flex-caption">Api plugins</p>
             </li>
 
             <li>
-              <img src="assets/img/secret.png" alt="slide image" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+              <a href="http://secretargot.com/"><img src="assets/img/secret.png" alt="slide image" /></a>
+              <p class="flex-caption">My favorite mp3s.  Big in Krasnodar Krai</p>
             </li>
 
             <li>
-              <img src="assets/img/port.png" alt="slide image" />
-              <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+              <a href="http://spectacularvernacular.net/"><img src="assets/img/port.png" alt="slide image" /></a>
+              <p class="flex-caption">My fine art portfolio. Old.</p>
             </li>
            
            
