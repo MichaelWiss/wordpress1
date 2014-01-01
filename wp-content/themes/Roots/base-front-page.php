@@ -555,16 +555,7 @@ $(document).ready(function () {
 })
   </script>
 
-  <script>
-
-
-		$(function(){
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
-			});
-		});
-		</script>
+  
 
     <script>
  var isMobile = {
