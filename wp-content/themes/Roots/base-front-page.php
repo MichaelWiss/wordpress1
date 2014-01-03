@@ -62,7 +62,7 @@
         </div>
 
         <div class="col-md-3 col-xs-12" id="contact-info">
-              <h3><a id="pdf" href="http://localhost/wordpress1/media/Michael-Wiss_2013.pdf">Download PDF</a></h3>
+              <h3><a id="pdf" href="http://michaelrwiss.com/media/Michael-Wiss_2013.pdf">Download PDF</a></h3>
               <h3><a id="email" href="mailto:michael.wiss@gmail.com">michael.wiss@gmail.com</a></h3>
 						  <h3>(917)-627-4004</h3>
 				</div>
@@ -496,28 +496,28 @@
 
 
    <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
+          <div class="col-md-2 col-md-offset-2 col-centered text-center">
             <div class="service-item1">
               <a class="beer" href="#"><i class="service-icon1 beer fa fa-beer"></i></a>
               <h4>Spirits</h4>
              <p>I enjoy them occasionally having recently discovered the joys of whiskey!</p>
            </div>
           </div>
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 col-centered text-center">
             <div class="service-item1">
               <a class="cutlery" href="http://eatbook.herokuapp.com/"><i class="service-icon1 fa fa-cutlery"></i></a>
               <h4>Eating</h4>
           <p>I am an exotic eater.  If I have never eaten it before the more I'd like to.</p>
            </div>
           </div>
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 col-centered text-center">
             <div class="service-item1">
               <a class="headphones" href="#"><i class="service-icon1 glyphicon glyphicon-headphones"></i></a>
               <h4>Music</h4>
              <p>Always listening to some jams.</p>
            </div>
           </div>
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 col-centered text-center">
             <div class="service-item1">
               <a class="globe" href="#"><i class="service-icon1 glyphicon glyphicon-globe"></i></a>
               <h4>Travel</h4>
@@ -555,7 +555,9 @@ $(document).ready(function () {
 })
   </script>
 
-  
+   
+
+
 
     <script>
  var isMobile = {

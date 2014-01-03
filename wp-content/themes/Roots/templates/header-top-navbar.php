@@ -1,6 +1,6 @@
  
  <div id="nav">
- <header class="navbar  navbar-fixed-top " role="banner">
+ <header  class="navbar  navbar-fixed-top" role="banner" >
   <div class="container">
   
     <div class="navbar-header ">
@@ -23,7 +23,7 @@
         endif;
       ?>
     </nav>
-   
+ 
   
   <script>
   $('a[href*=#]:not([href=#])').click(function() {
