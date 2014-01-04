@@ -430,7 +430,7 @@
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item">
-              <a class="instagram" href="http://wegrams.com/knish72"><i class="service-icon fa fa-instagram"></i></a>
+              <a class="instagram" href="http://instagram.com/knish72"><i class="service-icon fa fa-instagram"></i></a>
               <h4>Instagram</h4>
               <p>Pictures of food and old Chinese people.</p>
             </div>
