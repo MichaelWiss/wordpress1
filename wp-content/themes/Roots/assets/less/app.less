@@ -123,7 +123,7 @@ transition: All 0.7s ease;
 background-color: #FB5A48;
 }
 
-.navbar .active > a:hover{background-color:#5E3448; }
+.navbar .active > a:hover, a:active, a:focus{background-color:#5E3448; }
 
  .navbar-brand:hover,  .navbar-brand:focus{background-color:#5E3448; }
 
@@ -157,9 +157,10 @@ button.navbar-toggle collapsed{color:#C3C6C9;}
  .navbar-nav > li > a {
   color:#C3C6C9;}
 
-.navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,  .navbar-nav > .active > a:focus {color:#C3C6C9;}
+.navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,  .navbar-nav > .active > a:focus {color:#C3C6C9; background-color:#FB5A48;}
 
- 
+ .navbar a:hover, a:active, a:focus{background-color:#5E3448;}
+
  .navbar{margin-bottom:0px;}
 
 .navbar-brand{font-family: 'bebas_neueregular';
@@ -167,7 +168,6 @@ button.navbar-toggle collapsed{color:#C3C6C9;}
    letter-spacing: 3px;
    font-weight:bold;
    text-shadow: 0px 1px 1px rgba(0,0,0,0.2);}
-
 
 
 
@@ -988,7 +988,8 @@ background-attachment: fixed;
        
          height: 450px;
          width:100%;
-         position: relative;}
+         position: relative;
+         }
 svg#bigTriangleColor {
    pointer-events: none;
 }
@@ -1000,6 +1001,7 @@ svg#bigTriangleColor2 {
    fill: #7fbbda;
    stroke: #7fbbda;
    stroke-width: 1;
+
 }
 
 /* end div seperator*/
