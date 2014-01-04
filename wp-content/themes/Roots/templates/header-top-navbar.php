@@ -27,6 +27,9 @@
   
   <script>
   $('a[href*=#]:not([href=#])').click(function() {
+
+
+
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) {
 
@@ -37,10 +40,20 @@
                  scrollTop: target.offset().top
             }, 1000);
             return false;
+
         }
     }
 });
   </script>
+
+  <script type="text/javascript">
+jQuery(document).ready(function($) {
+$("#elem").click(function(event){       
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+});
+</script>
 
 
 
